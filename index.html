@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapa de localidades</title>
+<style>
+:root{--bg:#f6f5f1;--fg:#1d1d1b;--card:#fff;--bd:#d8d6cf;--ac:#2f6fdb;--mu:#6b6a65;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181c;--fg:#e8e6e1;--card:#21242a;--bd:#3a3e46;--ac:#6ea0ff;--mu:#9a9890}}
+:root[data-theme="dark"]{--bg:#16181c;--fg:#e8e6e1;--card:#21242a;--bd:#3a3e46;--ac:#6ea0ff;--mu:#9a9890}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;padding:12px;max-width:1200px;margin:0 auto}
+h1{font-size:18px;margin:0 0 8px}
+.tabs,.bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;align-items:center}
+button,select,input,textarea{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:6px 10px}
+button{cursor:pointer}
+button.on{background:var(--ac);border-color:var(--ac);color:#fff}
+#vp{position:relative;height:60vh;min-height:300px;overflow:hidden;background:#0d1117;border:1px solid var(--bd);border-radius:8px;touch-action:none;cursor:grab}
+#st{position:absolute;inset:0}
+#empty{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#aaa;text-align:center;padding:20px;pointer-events:none}
+.mk{position:absolute;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;border:2px solid #fff;display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff;box-shadow:0 0 3px #000;cursor:pointer}
+.mk.sel{outline:3px solid #ffeb3b}
+.lb{position:absolute;left:24px;top:2px;white-space:nowrap;background:rgba(0,0,0,.7);color:#fff;padding:0 4px;border-radius:3px;font-size:11px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px}
+.card h2{font-size:14px;margin:0 0 8px}
+.card label{display:block;margin-bottom:6px;color:var(--mu);font-size:12px}
+.card input[type=text],.card select,.card textarea{width:100%}
+.it{display:flex;gap:8px;align-items:center;padding:4px 0;border-bottom:1px solid var(--bd);cursor:pointer}
+.dot{width:16px;height:16px;border-radius:50%;flex:none;color:#fff;font-size:10px;display:flex;align-items:center;justify-content:center}
+.mu{color:var(--mu);font-size:12px}
+textarea{min-height:90px;font-family:ui-monospace,monospace;font-size:12px}
+.ar{position:absolute;border:2px dashed #ffeb3b;color:#ffeb3b;font-size:11px;pointer-events:none;padding:1px 3px}
+.mk.lk{opacity:.75;border-style:dashed}
+#mm{position:absolute;right:8px;bottom:8px;width:150px;border:1px solid #fff;background:#000;display:none;z-index:5;touch-action:none;cursor:pointer}
+#mm img{display:block;width:100%;height:auto;pointer-events:none}
+#mmr{position:absolute;border:2px solid #ffeb3b;pointer-events:none}
+@media(max-width:700px){#mm{width:110px}}
+#wrap.fsx{position:fixed;inset:0;z-index:50;background:var(--bg);padding:calc(8px + env(safe-area-inset-top,0px)) 8px calc(8px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;overflow:auto}
+#wrap.fsx #vp{flex:1;height:auto;min-height:240px}
+#wrap.fsx .grid{max-height:32vh;overflow:auto;flex:none}
+</style></head><body>
+<h1>Localidades del mapa</h1>
+<div id="wrap">
+<div class="tabs" id="tabs"></div>
+<div class="bar">
+  <label class="mu">Imagen de esta región: <input type="file" id="file" accept="image/*"></label>
+  <button id="zi">＋</button><button id="zo">－</button><button id="fit">Ajustar</button>
+  <label class="mu"><input type="checkbox" id="lbl"> nombres</label>
+  <select id="flt"></select>
+  <input type="text" id="q" placeholder="Buscar lugar…"><button id="md">Modo: Navegar</button><button id="ex">Ampliar</button><label class="mu"><input type="checkbox" id="mmc" checked> minimapa</label><button id="an">Ubicar en Estado</button><button id="au">Quitar vínculo</button>
+  <label class="mu"><input type="checkbox" id="lk" checked> ver lugares vinculados</label>
+</div>
+<div id="qr"></div><div class="mu" id="am"></div>
+<div id="vp"><div id="st"></div><div id="mm"><img id="mmi" draggable="false" alt=""><div id="mmr"></div></div><div id="empty">Carga el recorte de esta región (en Estado, el mapa completo).<br>Luego haz clic en el mapa para marcar un lugar.</div></div>
+<div class="grid">
+  <div class="card" id="form">
+    <h2 id="ft">Nuevo lugar</h2>
+    <p class="mu" id="fh">Haz clic en el mapa para elegir la posición.</p>
+    <label>Nombre<input type="text" id="n"></label>
+    <label>Tipo<select id="t"></select></label>
+    <label>Nota<input type="text" id="o"></label>
+    <div class="bar"><button id="sv" class="on">Guardar</button><button id="dl">Eliminar</button><button id="cn">Cancelar</button></div>
+  </div>
+  <div class="card"><h2 id="lt">Lugares</h2><div id="ls"></div></div>
+</div>
+</div>
+<div class="card" style="margin-top:12px">
+  <h2>Exportar / importar</h2>
+  <div class="bar"><button id="ej">JSON</button><button id="ec">CSV</button><button id="cp">Copiar</button><button id="im">Importar JSON</button></div>
+  <textarea id="ta" style="width:100%" placeholder="Aquí aparece la exportación. Para importar, pega un JSON y pulsa Importar."></textarea>
+  <p class="mu">Los lugares, las imágenes y los vínculos se guardan en este navegador. Si borras los datos del navegador se pierden, así que exporta un respaldo de vez en cuando.</p>
+</div>
+<script>
+const R=[["principal","Isla principal"],["sur","Sur"],["oeste","Islas occidentales"],["este","Este"],["norte","Norte"],["estado","Estado"]];
+const T={capital:["Capital","#d81b60","♛"],ciudad:["Ciudad","#e53935","●"],pueblo:["Pueblo","#ef6c00","⌂"],villa:["Villa","#00897b","▲"],puerto:["Puerto","#1e88e5","⚓"],mina:["Mina","#8d6e63","⛏"],granja:["Granja","#43a047","❀"],templo:["Templo","#8e24aa","♜"],area:["Área protegida / inhabitada","#607d8b","◌"],parque:["Parque nacional","#2e7d32","♣"],isla:["Isla","#00acc1","◐"],ruinas:["Ruinas","#757575","♖"],otro:["Otro","#fb8c00","★"]};
+const $=i=>document.getElementById(i);
+let M=[],cur="principal",im={},sel=null,pend=null,flt="",drag=null,anc=null,rcv=null,A={};
+try{M=JSON.parse(localStorage.getItem("mk")||"[]")}catch(e){}
+const save=()=>{try{localStorage.setItem("mk",JSON.stringify(M))}catch(e){}};
+$("t").innerHTML=Object.entries(T).map(([k,v])=>`<option value="${k}">${v[2]} ${v[0]}</option>`).join("");
+$("flt").innerHTML='<option value="">Todos los tipos</option>'+Object.entries(T).map(([k,v])=>`<option value="${k}">${v[2]} ${v[0]}</option>`).join("");
+function tabs(){$("tabs").innerHTML="";R.forEach(([id,nm])=>{const b=document.createElement("button");b.textContent=nm+" ("+M.filter(m=>m.r==id).length+")";if(id==cur)b.className="on";b.onclick=()=>{cur=id;sel=pend=null;if(id!="estado"){anc=null;rcv=null}draw()};$("tabs").appendChild(b)})}
+function fit(k=cur){const I=im[k];if(!I)return;const vp=$("vp"),z=Math.min(vp.clientWidth/I.w,vp.clientHeight/I.h);I.v={z,x:(vp.clientWidth-I.w*z)/2,y:(vp.clientHeight-I.h*z)/2}}
+function mkEl(m,I,cls,p){p=p||m;const d=document.createElement("div"),t=T[m.t]||T.otro;d.className="mk "+(cls||"");d.style.left=I.v.x+p.x*I.v.z+"px";d.style.top=I.v.y+p.y*I.v.z+"px";d.style.background=t[1];d.textContent=t[2];d.dataset.id=m.id;d.title=m.n;if($("lbl").checked&&m.n){const l=document.createElement("span");l.className="lb";l.textContent=m.n;d.appendChild(l)}return d}
+function draw(){tabs();const st=$("st"),I=im[cur];st.innerHTML="";$("empty").style.display=I?"none":"flex";
+ if(I){const g=document.createElement("img");g.src=I.src;g.draggable=false;g.style.cssText=`position:absolute;left:${I.v.x}px;top:${I.v.y}px;width:${I.w*I.v.z}px;height:${I.h*I.v.z}px;image-rendering:pixelated;max-width:none`;st.appendChild(g);
+  vis().forEach(o=>st.appendChild(mkEl(o.m,I,(sel&&sel.id==o.m.id?"sel ":"")+(o.m.r!=cur?"lk":""),o.p)));
+  if(cur=="estado")Object.entries(A).forEach(([k,a])=>st.appendChild(rectEl(a,R.find(r=>r[0]==k)[1],I)));
+  if(rcv)st.appendChild(rectEl(rcv,"Aquí",I));
+  if(pend){const e=mkEl({x:pend.x,y:pend.y,t:"otro",n:"",id:0},I,"sel");e.style.opacity=.7;st.appendChild(e)}}
+ form();list();anUI()}
+function form(){const e=!!sel,a=e||!!pend;$("ft").textContent=e?"Editar lugar":"Nuevo lugar";$("fh").textContent=e?`Posición: ${sel.x}, ${sel.y} px`:pend?`Posición: ${pend.x}, ${pend.y} px`:mode=="edit"?"Haz clic en el mapa para elegir la posición.":"Modo Navegar: cambia a Editar para añadir o mover lugares.";
+ const ed=mode=="edit";["n","t","o","sv","cn"].forEach(i=>$(i).disabled=!(a&&ed));$("dl").disabled=!(e&&ed);
+ if(e){$("n").value=sel.n;$("t").value=sel.t;$("o").value=sel.o||""}else if(!pend){$("n").value=$("o").value=""}}
+function list(){const L=vis().sort((a,b)=>a.m.n.localeCompare(b.m.n));$("lt").textContent="Lugares en "+R.find(r=>r[0]==cur)[1]+" ("+L.length+")";
+ $("ls").innerHTML=L.length?"":'<span class="mu">Aún no hay lugares.</span>';
+ L.forEach(({m,p})=>{const t=T[m.t]||T.otro,d=document.createElement("div");d.className="it";d.innerHTML=`<span class="dot" style="background:${t[1]}">${t[2]}</span><span><b></b> <span class="mu"></span></span>`;d.querySelector("b").textContent=m.n;d.querySelector(".mu").textContent=t[0]+(m.r!=cur?" · "+R.find(r=>r[0]==m.r)[1]:"")+(m.o?" · "+m.o:"");
+  d.onclick=()=>goto(m,p);$("ls").appendChild(d)})}
+function zoomAt(cx,cy,f){const I=im[cur];if(!I)return;const v=I.v,nz=Math.min(16,Math.max(.05,v.z*f)),k=nz/v.z;v.x=cx-(cx-v.x)*k;v.y=cy-(cy-v.y)*k;v.z=nz;draw()}
+const vp=$("vp");
+vp.addEventListener("wheel",e=>{e.preventDefault();const r=vp.getBoundingClientRect();zoomAt(e.clientX-r.left,e.clientY-r.top,e.deltaY<0?1.25:.8)},{passive:false});
+vp.addEventListener("pointerdown",e=>{const I=im[cur];if(!I)return;const el=e.target.closest&&e.target.closest(".mk"),mm=el&&M.find(m=>m.id==el.dataset.id);drag={sx:e.clientX,sy:e.clientY,ox:I.v.x,oy:I.v.y,mv:false,tg:e.target,mk:mm&&mm.r==cur&&mode=="edit"?mm:null,rc:anc&&cur=="estado"?pt(e):null};vp.setPointerCapture(e.pointerId)});
+vp.addEventListener("pointermove",e=>{if(!drag)return;const dx=e.clientX-drag.sx,dy=e.clientY-drag.sy;if(Math.abs(dx)+Math.abs(dy)>5)drag.mv=true;if(drag.mv){const I=im[cur];if(drag.rc){const p=pt(e),a=im[anc];rcv={x:drag.rc.x,y:drag.rc.y,w:Math.max(p.x-drag.rc.x,5),h:0};rcv.h=rcv.w*a.h/a.w}else if(drag.mk){const p=pt(e);drag.mk.x=Math.round(p.x);drag.mk.y=Math.round(p.y)}else{I.v.x=drag.ox+dx;I.v.y=drag.oy+dy}draw()}});
+vp.addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;if(d.mv){if(d.rc&&rcv){const a=im[anc];A[anc]={x:Math.round(rcv.x),y:Math.round(rcv.y),w:Math.round(rcv.w),h:Math.round(rcv.h),rw:a.w,rh:a.h};saveA();cur=anc;anc=null;rcv=null;draw()}else if(d.mk){sel=d.mk;save();draw()}return}if(anc)return;const I=im[cur],mk=d.tg.closest&&d.tg.closest(".mk");
+ if(mk&&mk.dataset.id!="0"){sel=M.find(m=>m.id==mk.dataset.id);pend=null}else if(mode!="edit"){sel=null}else{const r=vp.getBoundingClientRect();pend={x:Math.round((e.clientX-r.left-I.v.x)/I.v.z),y:Math.round((e.clientY-r.top-I.v.y)/I.v.z)};sel=null;$("n").value=$("o").value=""}
+ draw();if(pend)$("n").focus()});
+$("zi").onclick=()=>zoomAt(vp.clientWidth/2,vp.clientHeight/2,1.5);
+$("zo").onclick=()=>zoomAt(vp.clientWidth/2,vp.clientHeight/2,1/1.5);
+$("fit").onclick=()=>{fit();draw()};
+$("lbl").onchange=draw;$("flt").onchange=e=>{flt=e.target.value;draw()};
+$("file").onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>setImg(cur,rd.result,true);rd.readAsDataURL(f);e.target.value=""};
+$("sv").onclick=()=>{const n=$("n").value.trim();if(!n){$("n").focus();return}
+ if(sel){sel.n=n;sel.t=$("t").value;sel.o=$("o").value.trim()}else if(pend){M.push({id:Date.now(),r:cur,n,t:$("t").value,o:$("o").value.trim(),x:pend.x,y:pend.y})}
+ sel=pend=null;save();draw()};
+$("dl").onclick=()=>{if(sel&&confirm("¿Eliminar «"+sel.n+"»?")){M=M.filter(m=>m!==sel);sel=null;save();draw()}};
+$("cn").onclick=()=>{sel=pend=null;draw()};
+$("ej").onclick=()=>{$("ta").value=JSON.stringify(M,null,1)};
+$("ec").onclick=()=>{const q=s=>'"'+String(s==null?"":s).replace(/"/g,'""')+'"';$("ta").value="region,nombre,tipo,x,y,nota\n"+M.map(m=>[R.find(r=>r[0]==m.r)[1],m.n,(T[m.t]||T.otro)[0],m.x,m.y,m.o].map(q).join(",")).join("\n")};
+$("cp").onclick=async()=>{try{await navigator.clipboard.writeText($("ta").value)}catch(e){$("ta").select()}};
+$("im").onclick=()=>{try{const a=JSON.parse($("ta").value);if(!Array.isArray(a))throw 0;const ids=new Set(M.map(m=>m.id));a.forEach(m=>{if(m&&m.r&&m.n&&!ids.has(m.id))M.push(m)});save();draw()}catch(e){alert("JSON no válido")}};
+addEventListener("resize",()=>{fit();draw()});
+try{A=JSON.parse(localStorage.getItem("an")||"{}")}catch(e){}
+const saveA=()=>{try{localStorage.setItem("an",JSON.stringify(A))}catch(e){}};
+const pt=e=>{const r=vp.getBoundingClientRect(),I=im[cur];return{x:(e.clientX-r.left-I.v.x)/I.v.z,y:(e.clientY-r.top-I.v.y)/I.v.z}};
+function pos(m,k){if(m.r==k)return{x:m.x,y:m.y};if(!$("lk").checked)return null;
+ if(k=="estado"){const a=A[m.r];return a?{x:a.x+m.x/a.rw*a.w,y:a.y+m.y/a.rh*a.h}:null}
+ if(m.r=="estado"){const a=A[k];if(!a)return null;const x=(m.x-a.x)/a.w*a.rw,y=(m.y-a.y)/a.h*a.rh;return x>=0&&y>=0&&x<=a.rw&&y<=a.rh?{x,y}:null}
+ return null}
+const vis=()=>M.filter(m=>!flt||m.t==flt).map(m=>({m,p:pos(m,cur)})).filter(o=>o.p);
+const rectEl=(a,t,I)=>{const d=document.createElement("div");d.className="ar";d.style.cssText=`left:${I.v.x+a.x*I.v.z}px;top:${I.v.y+a.y*I.v.z}px;width:${a.w*I.v.z}px;height:${a.h*I.v.z}px`;d.textContent=t;return d};
+function goto(m,p){if(!p){cur=m.r;p=m}sel=m;pend=null;const I=im[cur];if(I){I.v.z=Math.max(I.v.z,2);I.v.x=vp.clientWidth/2-p.x*I.v.z;I.v.y=vp.clientHeight/2-p.y*I.v.z}draw()}
+function anUI(){mmUpd();$("an").style.display=$("au").style.display=cur=="estado"?"none":"";$("au").disabled=!A[cur];$("am").textContent=anc&&cur=="estado"?"Arrastra sobre el mapa completo, desde la esquina superior izquierda, el área que cubre «"+R.find(x=>x[0]==anc)[1]+"».":""}
+$("an").onclick=()=>{if(!im[cur]){alert("Primero carga la imagen de esta región.");return}if(!im.estado){alert("Primero carga el mapa completo en Estado.");return}anc=cur;cur="estado";sel=pend=null;draw()};
+$("au").onclick=()=>{delete A[cur];saveA();draw()};
+$("lk").onchange=draw;
+$("q").oninput=()=>{const q=$("q").value.trim().toLowerCase(),b=$("qr");b.innerHTML="";if(!q)return;const L=M.filter(m=>m.n.toLowerCase().includes(q)).slice(0,8);if(!L.length){b.innerHTML='<span class="mu">Sin resultados</span>';return}L.forEach(m=>{const d=document.createElement("div");d.className="it";d.textContent=m.n+" — "+R.find(r=>r[0]==m.r)[1];d.onclick=()=>{b.innerHTML="";$("q").value="";goto(m)};b.appendChild(d)})};
+function setImg(id,src,keep){const i=new Image();i.onload=()=>{im[id]={src,w:i.naturalWidth,h:i.naturalHeight,v:{z:1,x:0,y:0}};fit(id);draw();if(keep)idbPut(id,src)};i.src=src}
+const idb=new Promise(res=>{try{const q=indexedDB.open("mapk",1);q.onupgradeneeded=()=>q.result.createObjectStore("i");q.onsuccess=()=>res(q.result);q.onerror=()=>res(null)}catch(e){res(null)}});
+const idbPut=async(k,v)=>{try{const d=await idb;if(d)d.transaction("i","readwrite").objectStore("i").put(v,k)}catch(e){}};
+const idbGet=k=>idb.then(d=>new Promise(r=>{if(!d)return r();try{const q=d.transaction("i").objectStore("i").get(k);q.onsuccess=()=>r(q.result);q.onerror=()=>r()}catch(e){r()}}));
+R.forEach(([id])=>idbGet(id).then(s=>{if(s)setImg(id,s,false)}));
+let mode="nav";
+function mmUpd(){const I=im[cur],m=$("mm");if(!I||!$("mmc").checked){m.style.display="none";return}m.style.display="block";const i=$("mmi"),k=cur+I.w+"x"+I.src.length;if(i.dataset.k!=k){i.src=I.src;i.dataset.k=k}const s=(m.clientWidth||150)/I.w,v=I.v,x0=Math.max(0,-v.x/v.z),y0=Math.max(0,-v.y/v.z),x1=Math.min(I.w,(vp.clientWidth-v.x)/v.z),y1=Math.min(I.h,(vp.clientHeight-v.y)/v.z),r=$("mmr").style;r.left=x0*s+"px";r.top=y0*s+"px";r.width=Math.max(0,x1-x0)*s+"px";r.height=Math.max(0,y1-y0)*s+"px"}
+const mmEl=$("mm");let mmd=false;
+const mmGo=e=>{const I=im[cur];if(!I)return;const b=mmEl.getBoundingClientRect(),s=b.width/I.w;I.v.x=vp.clientWidth/2-(e.clientX-b.left)/s*I.v.z;I.v.y=vp.clientHeight/2-(e.clientY-b.top)/s*I.v.z;draw()};
+mmEl.addEventListener("pointerdown",e=>{e.stopPropagation();mmd=true;mmEl.setPointerCapture(e.pointerId);mmGo(e)});
+mmEl.addEventListener("pointermove",e=>{e.stopPropagation();if(mmd)mmGo(e)});
+mmEl.addEventListener("pointerup",e=>{e.stopPropagation();mmd=false});
+mmEl.addEventListener("wheel",e=>{e.stopPropagation();e.preventDefault()},{passive:false});
+$("mmc").onchange=draw;
+const ptrs=new Map();let pinch=null;
+vp.addEventListener("pointerdown",e=>{ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});if(ptrs.size==2){drag=null;const[a,b]=[...ptrs.values()];pinch=Math.hypot(a.x-b.x,a.y-b.y)||1}});
+vp.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});if(ptrs.size==2&&pinch){const[a,b]=[...ptrs.values()],d=Math.hypot(a.x-b.x,a.y-b.y)||1,r=vp.getBoundingClientRect();zoomAt((a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top,d/pinch);pinch=d}});
+const pu=e=>{ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null};
+vp.addEventListener("pointerup",pu);vp.addEventListener("pointercancel",pu);
+$("md").onclick=()=>{mode=mode=="edit"?"nav":"edit";if(mode=="nav")pend=null;$("md").textContent="Modo: "+(mode=="edit"?"Editar":"Navegar");$("md").className=mode=="edit"?"on":"";draw()};
+$("ex").onclick=()=>{const w=$("wrap").classList.toggle("fsx");$("ex").textContent=w?"Reducir":"Ampliar";fit();draw()};
+addEventListener("keydown",e=>{if(e.key=="Escape"&&$("wrap").classList.contains("fsx"))$("ex").click()});
+draw();
+</script></body></html>
