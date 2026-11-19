@@ -1,0 +1,4088 @@
+[
+ {
+  "id": 1791961352613,
+  "r": "estado",
+  "n": "Newport",
+  "t": "capital",
+  "o": "Capital",
+  "x": 2621,
+  "y": 2008
+ },
+ {
+  "id": 1791961385463,
+  "r": "estado",
+  "n": "San Mateo",
+  "t": "puerto",
+  "o": "",
+  "x": 2306,
+  "y": 2325
+ },
+ {
+  "id": 1791961414294,
+  "r": "estado",
+  "n": "Dalton Beach",
+  "t": "ciudad",
+  "o": "Ciudad turistica y conectora a SC",
+  "x": 2368,
+  "y": 2140
+ },
+ {
+  "id": 1791961533635,
+  "r": "estado",
+  "n": "Acacia hills",
+  "t": "ciudad",
+  "o": "ciudad de la subregion cordillera acacia",
+  "x": 2538,
+  "y": 1643
+ },
+ {
+  "id": 1791961572613,
+  "r": "estado",
+  "n": "Twin islands",
+  "t": "otro",
+  "o": "Dos islas en una sola localidad",
+  "x": 2095,
+  "y": 1914
+ },
+ {
+  "id": 1791961649281,
+  "r": "estado",
+  "n": "Sunset Beach",
+  "t": "otro",
+  "o": "suburbio al sur de OH",
+  "x": 2586,
+  "y": 1588
+ },
+ {
+  "id": 1791961678568,
+  "r": "estado",
+  "n": "Monteverde",
+  "t": "puerto",
+  "o": "Ciudad escala (Metro y puerto)",
+  "x": 2457,
+  "y": 1431
+ },
+ {
+  "id": 1791961705300,
+  "r": "estado",
+  "n": "Candle Desert",
+  "t": "ciudad",
+  "o": "ciudad mas norte de la isla principal",
+  "x": 2696,
+  "y": 1285
+ },
+ {
+  "id": 1791961727162,
+  "r": "estado",
+  "n": "Fortress Park",
+  "t": "villa",
+  "o": "pequeño poblado",
+  "x": 2583,
+  "y": 1315
+ },
+ {
+  "id": 1791961755033,
+  "r": "estado",
+  "n": "Marcovaldo beach",
+  "t": "puerto",
+  "o": "",
+  "x": 2614,
+  "y": 1424
+ },
+ {
+  "id": 1791961808495,
+  "r": "estado",
+  "n": "Savannah Ranch",
+  "t": "puerto",
+  "o": "localidad al oeste de AH",
+  "x": 2436,
+  "y": 1682
+ },
+ {
+  "id": 1791961880878,
+  "r": "estado",
+  "n": "Torrance",
+  "t": "villa",
+  "o": "pueblo",
+  "x": 3102,
+  "y": 1297
+ },
+ {
+  "id": 1791961904725,
+  "r": "estado",
+  "n": "Palmera hills",
+  "t": "pueblo",
+  "o": "Pueblo",
+  "x": 2714,
+  "y": 682
+ },
+ {
+  "id": 1791961940885,
+  "r": "estado",
+  "n": "Starside-Northside",
+  "t": "templo",
+  "o": "Dos pueblos limitados",
+  "x": 2375,
+  "y": 2217
+ },
+ {
+  "id": 1791961960711,
+  "r": "estado",
+  "n": "Santa Inez",
+  "t": "ciudad",
+  "o": "en la isla cedro",
+  "x": 2161,
+  "y": 2321
+ },
+ {
+  "id": 1791961979813,
+  "r": "estado",
+  "n": "Cedar Hills",
+  "t": "puerto",
+  "o": "sur de isla cedro",
+  "x": 2097,
+  "y": 2397
+ },
+ {
+  "id": 1791962603358,
+  "r": "norte",
+  "n": "Northwood",
+  "t": "pueblo",
+  "o": "Localidad mas al norte del estado",
+  "x": 529,
+  "y": 49
+ },
+ {
+  "id": 1791962626063,
+  "r": "norte",
+  "n": "San Juan",
+  "t": "villa",
+  "o": "pequeña villa",
+  "x": 450,
+  "y": 123
+ },
+ {
+  "id": 1791962642943,
+  "r": "norte",
+  "n": "Sorrento valley",
+  "t": "area",
+  "o": "",
+  "x": 570,
+  "y": 109
+ },
+ {
+  "id": 1791962656372,
+  "r": "norte",
+  "n": "Glaciar hills",
+  "t": "parque",
+  "o": "",
+  "x": 735,
+  "y": 107
+ },
+ {
+  "id": 1791962675380,
+  "r": "norte",
+  "n": "Guadalupe forest",
+  "t": "parque",
+  "o": "",
+  "x": 358,
+  "y": 321
+ },
+ {
+  "id": 1791962696268,
+  "r": "norte",
+  "n": "Fort tulare",
+  "t": "ciudad",
+  "o": "ubicado en isla tulare",
+  "x": 209,
+  "y": 357
+ },
+ {
+  "id": 1791962715671,
+  "r": "norte",
+  "n": "Concepcion",
+  "t": "pueblo",
+  "o": "oeste de fort tulare",
+  "x": 139,
+  "y": 332
+ },
+ {
+  "id": 1791962727615,
+  "r": "norte",
+  "n": "Isla Miramar",
+  "t": "isla",
+  "o": "",
+  "x": 47,
+  "y": 341
+ },
+ {
+  "id": 1791962736683,
+  "r": "norte",
+  "n": "Isla Tulare",
+  "t": "isla",
+  "o": "",
+  "x": 173,
+  "y": 350
+ },
+ {
+  "id": 1791962745370,
+  "r": "norte",
+  "n": "Isla Acacia",
+  "t": "isla",
+  "o": "",
+  "x": 287,
+  "y": 423
+ },
+ {
+  "id": 1791962758838,
+  "r": "norte",
+  "n": "Highside Beach",
+  "t": "pueblo",
+  "o": "",
+  "x": 246,
+  "y": 415
+ },
+ {
+  "id": 1791962772456,
+  "r": "norte",
+  "n": "Campo Heights",
+  "t": "villa",
+  "o": "",
+  "x": 467,
+  "y": 414
+ },
+ {
+  "id": 1791962785916,
+  "r": "norte",
+  "n": "Puente Hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 454,
+  "y": 285
+ },
+ {
+  "id": 1791962808599,
+  "r": "norte",
+  "n": "Palmera Hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 678,
+  "y": 214
+ },
+ {
+  "id": 1791962827046,
+  "r": "norte",
+  "n": "north jungle",
+  "t": "area",
+  "o": "",
+  "x": 737,
+  "y": 216
+ },
+ {
+  "id": 1791962841288,
+  "r": "norte",
+  "n": "San Andreas Desert",
+  "t": "parque",
+  "o": "",
+  "x": 624,
+  "y": 408
+ },
+ {
+  "id": 1791962859154,
+  "r": "norte",
+  "n": "Del Sol",
+  "t": "villa",
+  "o": "",
+  "x": 798,
+  "y": 389
+ },
+ {
+  "id": 1791962895614,
+  "r": "norte",
+  "n": "Dark Forest",
+  "t": "parque",
+  "o": "",
+  "x": 511,
+  "y": 169
+ },
+ {
+  "id": 1791962984522,
+  "r": "norte",
+  "n": "Kana Forest",
+  "t": "parque",
+  "o": "",
+  "x": 279,
+  "y": 89
+ },
+ {
+  "id": 1791963014783,
+  "r": "este",
+  "n": "Torrance",
+  "t": "villa",
+  "o": "",
+  "x": 137,
+  "y": 70
+ },
+ {
+  "id": 1791963042989,
+  "r": "este",
+  "n": "East Great Jungle",
+  "t": "area",
+  "o": "",
+  "x": 296,
+  "y": 120
+ },
+ {
+  "id": 1791963059754,
+  "r": "este",
+  "n": "Bamboo hills",
+  "t": "pueblo",
+  "o": "Zona este",
+  "x": 170,
+  "y": 211
+ },
+ {
+  "id": 1791963066470,
+  "r": "este",
+  "n": "Forteza",
+  "t": "pueblo",
+  "o": "",
+  "x": 111,
+  "y": 175
+ },
+ {
+  "id": 1791963078426,
+  "r": "este",
+  "n": "Serrano",
+  "t": "villa",
+  "o": "",
+  "x": 142,
+  "y": 294
+ },
+ {
+  "id": 1791963119453,
+  "r": "este",
+  "n": "Riverglide",
+  "t": "pueblo",
+  "o": "zona este en Nevada Valley",
+  "x": 522,
+  "y": 344
+ },
+ {
+  "id": 1791963145559,
+  "r": "este",
+  "n": "Carrillo Forest",
+  "t": "area",
+  "o": "",
+  "x": 293,
+  "y": 359
+ },
+ {
+  "id": 1791963163341,
+  "r": "este",
+  "n": "Fort Calipatria",
+  "t": "pueblo",
+  "o": "pueblo zona este",
+  "x": 124,
+  "y": 407
+ },
+ {
+  "id": 1791963210643,
+  "r": "este",
+  "n": "Jungla ruins",
+  "t": "ruinas",
+  "o": "",
+  "x": 390,
+  "y": 20
+ },
+ {
+  "id": 1791963258893,
+  "r": "oeste",
+  "n": "Mushroom island",
+  "t": "isla",
+  "o": "",
+  "x": 85,
+  "y": 60
+ },
+ {
+  "id": 1791963270408,
+  "r": "oeste",
+  "n": "San Bernando",
+  "t": "puerto",
+  "o": "",
+  "x": 44,
+  "y": 106
+ },
+ {
+  "id": 1791963292109,
+  "r": "oeste",
+  "n": "Micelium Heights",
+  "t": "pueblo",
+  "o": "Localidad principal de la isla mushroom",
+  "x": 127,
+  "y": 112
+ },
+ {
+  "id": 1791963309030,
+  "r": "oeste",
+  "n": "islas dione",
+  "t": "isla",
+  "o": "",
+  "x": 226,
+  "y": 113
+ },
+ {
+  "id": 1791963319779,
+  "r": "oeste",
+  "n": "shizouka",
+  "t": "isla",
+  "o": "",
+  "x": 285,
+  "y": 100
+ },
+ {
+  "id": 1791963326551,
+  "r": "oeste",
+  "n": "ayumi",
+  "t": "isla",
+  "o": "",
+  "x": 309,
+  "y": 65
+ },
+ {
+  "id": 1791963331983,
+  "r": "oeste",
+  "n": "orosco",
+  "t": "isla",
+  "o": "",
+  "x": 348,
+  "y": 90
+ },
+ {
+  "id": 1791963347998,
+  "r": "oeste",
+  "n": "islas luz",
+  "t": "isla",
+  "o": "3 islas",
+  "x": 445,
+  "y": 126
+ },
+ {
+  "id": 1791963361374,
+  "r": "oeste",
+  "n": "Islas aiki",
+  "t": "isla",
+  "o": "",
+  "x": 254,
+  "y": 174
+ },
+ {
+  "id": 1791963368573,
+  "r": "oeste",
+  "n": "aomori",
+  "t": "isla",
+  "o": "",
+  "x": 193,
+  "y": 232
+ },
+ {
+  "id": 1791963376853,
+  "r": "oeste",
+  "n": "tulipan",
+  "t": "isla",
+  "o": "",
+  "x": 295,
+  "y": 302
+ },
+ {
+  "id": 1791963387470,
+  "r": "oeste",
+  "n": "abedul",
+  "t": "isla",
+  "o": "",
+  "x": 220,
+  "y": 372
+ },
+ {
+  "id": 1791963405591,
+  "r": "oeste",
+  "n": "Abedul Hills",
+  "t": "pueblo",
+  "o": "Pueblo en la isla abedul",
+  "x": 195,
+  "y": 377
+ },
+ {
+  "id": 1791963418179,
+  "r": "oeste",
+  "n": "Oak Beach",
+  "t": "puerto",
+  "o": "",
+  "x": 215,
+  "y": 359
+ },
+ {
+  "id": 1791963526084,
+  "r": "oeste",
+  "n": "Ysabel",
+  "t": "isla",
+  "o": "",
+  "x": 284,
+  "y": 409
+ },
+ {
+  "id": 1791963570186,
+  "r": "oeste",
+  "n": "boyer",
+  "t": "isla",
+  "o": "",
+  "x": 279,
+  "y": 353
+ },
+ {
+  "id": 1791963589485,
+  "r": "oeste",
+  "n": "boyer",
+  "t": "villa",
+  "o": "poblado en isla boyer",
+  "x": 282,
+  "y": 354
+ },
+ {
+  "id": 1791963595488,
+  "r": "oeste",
+  "n": "Flores",
+  "t": "villa",
+  "o": "",
+  "x": 332,
+  "y": 332
+ },
+ {
+  "id": 1791963604138,
+  "r": "oeste",
+  "n": "Isla flores",
+  "t": "isla",
+  "o": "",
+  "x": 333,
+  "y": 339
+ },
+ {
+  "id": 1791963617895,
+  "r": "oeste",
+  "n": "San Angel",
+  "t": "villa",
+  "o": "",
+  "x": 401,
+  "y": 309
+ },
+ {
+  "id": 1791963630714,
+  "r": "oeste",
+  "n": "islas woodvale",
+  "t": "isla",
+  "o": "",
+  "x": 494,
+  "y": 325
+ },
+ {
+  "id": 1791963654866,
+  "r": "oeste",
+  "n": "woodvale",
+  "t": "pueblo",
+  "o": "isla principal woodvale",
+  "x": 479,
+  "y": 333
+ },
+ {
+  "id": 1791963661674,
+  "r": "oeste",
+  "n": "kern",
+  "t": "isla",
+  "o": "",
+  "x": 504,
+  "y": 322
+ },
+ {
+  "id": 1791963674458,
+  "r": "oeste",
+  "n": "Dorado",
+  "t": "isla",
+  "o": "",
+  "x": 452,
+  "y": 288
+ },
+ {
+  "id": 1791963682619,
+  "r": "oeste",
+  "n": "isla okuto",
+  "t": "isla",
+  "o": "",
+  "x": 331,
+  "y": 254
+ },
+ {
+  "id": 1791963695789,
+  "r": "oeste",
+  "n": "isla acacia",
+  "t": "isla",
+  "o": "",
+  "x": 483,
+  "y": 20
+ },
+ {
+  "id": 1791963705133,
+  "r": "oeste",
+  "n": "Green hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 521,
+  "y": 20
+ },
+ {
+  "id": 1791963716017,
+  "r": "oeste",
+  "n": "Santa Lucia",
+  "t": "villa",
+  "o": "",
+  "x": 549,
+  "y": 15
+ },
+ {
+  "id": 1791963746848,
+  "r": "oeste",
+  "n": "isla tucan",
+  "t": "isla",
+  "o": "",
+  "x": 385,
+  "y": 164
+ },
+ {
+  "id": 1791963764752,
+  "r": "oeste",
+  "n": "isla montes",
+  "t": "templo",
+  "o": "",
+  "x": 261,
+  "y": 233
+ },
+ {
+  "id": 1791963781388,
+  "r": "oeste",
+  "n": "anza",
+  "t": "villa",
+  "o": "",
+  "x": 215,
+  "y": 455
+ },
+ {
+  "id": 1791963788010,
+  "r": "oeste",
+  "n": "isla anza",
+  "t": "isla",
+  "o": "",
+  "x": 209,
+  "y": 456
+ },
+ {
+  "id": 1791963809209,
+  "r": "oeste",
+  "n": "Tortugas",
+  "t": "puerto",
+  "o": "",
+  "x": 355,
+  "y": 452
+ },
+ {
+  "id": 1791963823886,
+  "r": "oeste",
+  "n": "Montero",
+  "t": "pueblo",
+  "o": "",
+  "x": 362,
+  "y": 511
+ },
+ {
+  "id": 1791963837323,
+  "r": "oeste",
+  "n": "Islas Montero",
+  "t": "isla",
+  "o": "3 islas",
+  "x": 351,
+  "y": 508
+ },
+ {
+  "id": 1791963859606,
+  "r": "oeste",
+  "n": "islas ocotillo",
+  "t": "isla",
+  "o": "",
+  "x": 465,
+  "y": 444
+ },
+ {
+  "id": 1791963871171,
+  "r": "oeste",
+  "n": "east ocotillo",
+  "t": "villa",
+  "o": "",
+  "x": 478,
+  "y": 433
+ },
+ {
+  "id": 1791963886550,
+  "r": "oeste",
+  "n": "Ocotillo",
+  "t": "puerto",
+  "o": "poblado en la isla uno",
+  "x": 449,
+  "y": 456
+ },
+ {
+  "id": 1791963916093,
+  "r": "oeste",
+  "n": "Murico",
+  "t": "isla",
+  "o": "",
+  "x": 529,
+  "y": 458
+ },
+ {
+  "id": 1791963954419,
+  "r": "oeste",
+  "n": "luz",
+  "t": "villa",
+  "o": "",
+  "x": 449,
+  "y": 113
+ },
+ {
+  "id": 1791963968393,
+  "r": "oeste",
+  "n": "east orosco",
+  "t": "villa",
+  "o": "",
+  "x": 382,
+  "y": 90
+ },
+ {
+  "id": 1791963977119,
+  "r": "oeste",
+  "n": "parkland",
+  "t": "pueblo",
+  "o": "",
+  "x": 356,
+  "y": 87
+ },
+ {
+  "id": 1791963994406,
+  "r": "oeste",
+  "n": "postal",
+  "t": "area",
+  "o": "",
+  "x": 461,
+  "y": 38
+ },
+ {
+  "id": 1791964003006,
+  "r": "oeste",
+  "n": "Highland",
+  "t": "villa",
+  "o": "",
+  "x": 432,
+  "y": 6
+ },
+ {
+  "id": 1791964018932,
+  "r": "oeste",
+  "n": "woodridge",
+  "t": "mina",
+  "o": "",
+  "x": 501,
+  "y": 42
+ },
+ {
+  "id": 1791964042845,
+  "r": "oeste",
+  "n": "Rosalinda Bay",
+  "t": "pueblo",
+  "o": "",
+  "x": 548,
+  "y": 91
+ },
+ {
+  "id": 1791964060135,
+  "r": "oeste",
+  "n": "Rivera",
+  "t": "isla",
+  "o": "",
+  "x": 232,
+  "y": 64
+ },
+ {
+  "id": 1791964102199,
+  "r": "principal",
+  "n": "Newport",
+  "t": "capital",
+  "o": "Capital del estado",
+  "x": 331,
+  "y": 373
+ },
+ {
+  "id": 1791964115412,
+  "r": "principal",
+  "n": "San Bruno",
+  "t": "ciudad",
+  "o": "",
+  "x": 289,
+  "y": 349
+ },
+ {
+  "id": 1791964124601,
+  "r": "principal",
+  "n": "Melissa hills",
+  "t": "puerto",
+  "o": "",
+  "x": 238,
+  "y": 350
+ },
+ {
+  "id": 1791964136767,
+  "r": "principal",
+  "n": "Monroe Beach",
+  "t": "ciudad",
+  "o": "",
+  "x": 265,
+  "y": 310
+ },
+ {
+  "id": 1791964161394,
+  "r": "principal",
+  "n": "Savannah Hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 300,
+  "y": 297
+ },
+ {
+  "id": 1791964177656,
+  "r": "principal",
+  "n": "Guilia Beach",
+  "t": "pueblo",
+  "o": "",
+  "x": 334,
+  "y": 313
+ },
+ {
+  "id": 1791964188226,
+  "r": "principal",
+  "n": "Monroe Bay",
+  "t": "pueblo",
+  "o": "",
+  "x": 264,
+  "y": 280
+ },
+ {
+  "id": 1791964196487,
+  "r": "principal",
+  "n": "acacia lake",
+  "t": "pueblo",
+  "o": "",
+  "x": 278,
+  "y": 258
+ },
+ {
+  "id": 1791964208292,
+  "r": "principal",
+  "n": "Savannah Ranch",
+  "t": "pueblo",
+  "o": "",
+  "x": 252,
+  "y": 223
+ },
+ {
+  "id": 1791964225958,
+  "r": "principal",
+  "n": "Acacia Hills",
+  "t": "capital",
+  "o": "",
+  "x": 294,
+  "y": 209
+ },
+ {
+  "id": 1791964237346,
+  "r": "principal",
+  "n": "sunset beach",
+  "t": "villa",
+  "o": "",
+  "x": 314,
+  "y": 187
+ },
+ {
+  "id": 1791964247696,
+  "r": "principal",
+  "n": "Oakside hills",
+  "t": "parque",
+  "o": "",
+  "x": 296,
+  "y": 166
+ },
+ {
+  "id": 1791964258285,
+  "r": "principal",
+  "n": "Monteverde",
+  "t": "ciudad",
+  "o": "",
+  "x": 262,
+  "y": 113
+ },
+ {
+  "id": 1791964264707,
+  "r": "principal",
+  "n": "Candle Desert",
+  "t": "ciudad",
+  "o": "",
+  "x": 366,
+  "y": 42
+ },
+ {
+  "id": 1791964280092,
+  "r": "principal",
+  "n": "Fortress Park",
+  "t": "villa",
+  "o": "",
+  "x": 311,
+  "y": 61
+ },
+ {
+  "id": 1791964292990,
+  "r": "principal",
+  "n": "Desertica hills",
+  "t": "puerto",
+  "o": "",
+  "x": 251,
+  "y": 77
+ },
+ {
+  "id": 1791964302889,
+  "r": "principal",
+  "n": "cactus beach",
+  "t": "villa",
+  "o": "",
+  "x": 279,
+  "y": 55
+ },
+ {
+  "id": 1791964311375,
+  "r": "principal",
+  "n": "antonio hills",
+  "t": "villa",
+  "o": "",
+  "x": 325,
+  "y": 46
+ },
+ {
+  "id": 1791964325139,
+  "r": "principal",
+  "n": "constantia desert",
+  "t": "parque",
+  "o": "",
+  "x": 364,
+  "y": 9
+ },
+ {
+  "id": 1791964339572,
+  "r": "principal",
+  "n": "Sakura park",
+  "t": "granja",
+  "o": "",
+  "x": 314,
+  "y": 85
+ },
+ {
+  "id": 1791964349251,
+  "r": "principal",
+  "n": "diana island",
+  "t": "isla",
+  "o": "",
+  "x": 354,
+  "y": 107
+ },
+ {
+  "id": 1791964358170,
+  "r": "principal",
+  "n": "Maurice island",
+  "t": "isla",
+  "o": "",
+  "x": 338,
+  "y": 214
+ },
+ {
+  "id": 1791964372485,
+  "r": "principal",
+  "n": "Red Heights",
+  "t": "villa",
+  "o": "",
+  "x": 308,
+  "y": 241
+ },
+ {
+  "id": 1791964383483,
+  "r": "principal",
+  "n": "eugene canyon",
+  "t": "villa",
+  "o": "",
+  "x": 297,
+  "y": 242
+ },
+ {
+  "id": 1791964396040,
+  "r": "principal",
+  "n": "Acacia Ranges",
+  "t": "parque",
+  "o": "",
+  "x": 289,
+  "y": 273
+ },
+ {
+  "id": 1791964408929,
+  "r": "principal",
+  "n": "North valley",
+  "t": "parque",
+  "o": "",
+  "x": 294,
+  "y": 105
+ },
+ {
+  "id": 1791964459513,
+  "r": "principal",
+  "n": "Arenas Beach",
+  "t": "otro",
+  "o": "",
+  "x": 78,
+  "y": 173
+ },
+ {
+  "id": 1791964466336,
+  "r": "principal",
+  "n": "Portside",
+  "t": "puerto",
+  "o": "",
+  "x": 58,
+  "y": 177
+ },
+ {
+  "id": 1791964474644,
+  "r": "principal",
+  "n": "Rosalinda Bay",
+  "t": "puerto",
+  "o": "",
+  "x": 50,
+  "y": 114
+ },
+ {
+  "id": 1791964487136,
+  "r": "principal",
+  "n": "Fort yuma",
+  "t": "pueblo",
+  "o": "",
+  "x": 110,
+  "y": 96
+ },
+ {
+  "id": 1791964497350,
+  "r": "principal",
+  "n": "yuma",
+  "t": "isla",
+  "o": "",
+  "x": 122,
+  "y": 72
+ },
+ {
+  "id": 1791964530339,
+  "r": "principal",
+  "n": "Santa Lucia",
+  "t": "villa",
+  "o": "",
+  "x": 46,
+  "y": 31
+ },
+ {
+  "id": 1791964539668,
+  "r": "principal",
+  "n": "Green hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 21,
+  "y": 34
+ },
+ {
+  "id": 1791964566571,
+  "r": "principal",
+  "n": "Santa Rosa",
+  "t": "ciudad",
+  "o": "ciudad principal de la isla SR",
+  "x": 89,
+  "y": 135
+ },
+ {
+  "id": 1791964585742,
+  "r": "principal",
+  "n": "United Park",
+  "t": "villa",
+  "o": "",
+  "x": 274,
+  "y": 147
+ },
+ {
+  "id": 1791964605487,
+  "r": "principal",
+  "n": "Santa Rosalia",
+  "t": "otro",
+  "o": "extension de newport",
+  "x": 367,
+  "y": 351
+ },
+ {
+  "id": 1791964626755,
+  "r": "principal",
+  "n": "west peninsula",
+  "t": "otro",
+  "o": "extension de Melissa hills",
+  "x": 217,
+  "y": 353
+ },
+ {
+  "id": 1791964644479,
+  "r": "principal",
+  "n": "Sarahi island",
+  "t": "isla",
+  "o": "",
+  "x": 227,
+  "y": 381
+ },
+ {
+  "id": 1791964654654,
+  "r": "principal",
+  "n": "North hills",
+  "t": "villa",
+  "o": "",
+  "x": 169,
+  "y": 398
+ },
+ {
+  "id": 1791964662773,
+  "r": "principal",
+  "n": "Paguro island",
+  "t": "villa",
+  "o": "",
+  "x": 264,
+  "y": 399
+ },
+ {
+  "id": 1791964668758,
+  "r": "principal",
+  "n": "bamboo island",
+  "t": "villa",
+  "o": "",
+  "x": 249,
+  "y": 401
+ },
+ {
+  "id": 1791964697124,
+  "r": "principal",
+  "n": "bottle point",
+  "t": "area",
+  "o": "",
+  "x": 323,
+  "y": 239
+ },
+ {
+  "id": 1791964713923,
+  "r": "principal",
+  "n": "Marcovaldo beach",
+  "t": "villa",
+  "o": "",
+  "x": 330,
+  "y": 115
+ },
+ {
+  "id": 1791964839759,
+  "r": "sur",
+  "n": "Dalton Beach",
+  "t": "ciudad",
+  "o": "ciudad en la isla san mateo",
+  "x": 174,
+  "y": 35
+ },
+ {
+  "id": 1791964862244,
+  "r": "sur",
+  "n": "San Mateo",
+  "t": "ciudad",
+  "o": "zona principal de la isla SM",
+  "x": 152,
+  "y": 112
+ },
+ {
+  "id": 1791964869119,
+  "r": "sur",
+  "n": "Santa Inez",
+  "t": "ciudad",
+  "o": "",
+  "x": 92,
+  "y": 106
+ },
+ {
+  "id": 1791964878898,
+  "r": "sur",
+  "n": "Cedar Hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 72,
+  "y": 126
+ },
+ {
+  "id": 1791964888534,
+  "r": "sur",
+  "n": "Bean",
+  "t": "isla",
+  "o": "",
+  "x": 131,
+  "y": 126
+ },
+ {
+  "id": 1791964897000,
+  "r": "sur",
+  "n": "chick",
+  "t": "isla",
+  "o": "",
+  "x": 188,
+  "y": 100
+ },
+ {
+  "id": 1791964902554,
+  "r": "sur",
+  "n": "dove",
+  "t": "isla",
+  "o": "",
+  "x": 205,
+  "y": 76
+ },
+ {
+  "id": 1791964915290,
+  "r": "sur",
+  "n": "Maine Port",
+  "t": "otro",
+  "o": "",
+  "x": 193,
+  "y": 52
+ },
+ {
+  "id": 1791964936282,
+  "r": "sur",
+  "n": "North Hills",
+  "t": "villa",
+  "o": "",
+  "x": 136,
+  "y": 13
+ },
+ {
+  "id": 1791964945929,
+  "r": "sur",
+  "n": "Pinnacle",
+  "t": "isla",
+  "o": "",
+  "x": 105,
+  "y": 50
+ },
+ {
+  "id": 1791964964981,
+  "r": "sur",
+  "n": "Santa Monica Bay",
+  "t": "area",
+  "o": "",
+  "x": 137,
+  "y": 48
+ },
+ {
+  "id": 1791964985907,
+  "r": "sur",
+  "n": "Lorenzo hills",
+  "t": "villa",
+  "o": "",
+  "x": 160,
+  "y": 73
+ },
+ {
+  "id": 1791964993879,
+  "r": "sur",
+  "n": "Starside hills",
+  "t": "villa",
+  "o": "",
+  "x": 176,
+  "y": 58
+ },
+ {
+  "id": 1791965000857,
+  "r": "sur",
+  "n": "Northside hills",
+  "t": "villa",
+  "o": "",
+  "x": 175,
+  "y": 76
+ },
+ {
+  "id": 1791965017617,
+  "r": "sur",
+  "n": "Minerva Beach",
+  "t": "otro",
+  "o": "",
+  "x": 155,
+  "y": 134
+ },
+ {
+  "id": 1791965034932,
+  "r": "sur",
+  "n": "east cedar",
+  "t": "isla",
+  "o": "",
+  "x": 46,
+  "y": 112
+ },
+ {
+  "id": 1791965039344,
+  "r": "sur",
+  "n": "Murico",
+  "t": "isla",
+  "o": "",
+  "x": 9,
+  "y": 141
+ },
+ {
+  "id": 1791965048394,
+  "r": "sur",
+  "n": "Islas Cochrane",
+  "t": "isla",
+  "o": "",
+  "x": 160,
+  "y": 200
+ },
+ {
+  "id": 1791965055444,
+  "r": "sur",
+  "n": "Cochrane",
+  "t": "pueblo",
+  "o": "",
+  "x": 112,
+  "y": 208
+ },
+ {
+  "id": 1791965065034,
+  "r": "sur",
+  "n": "Nautilus",
+  "t": "isla",
+  "o": "",
+  "x": 173,
+  "y": 234
+ },
+ {
+  "id": 1791965069548,
+  "r": "sur",
+  "n": "manglares",
+  "t": "isla",
+  "o": "",
+  "x": 74,
+  "y": 231
+ },
+ {
+  "id": 1791965080697,
+  "r": "sur",
+  "n": "Borrego hills",
+  "t": "villa",
+  "o": "",
+  "x": 205,
+  "y": 182
+ },
+ {
+  "id": 1791965089840,
+  "r": "sur",
+  "n": "Cortez",
+  "t": "isla",
+  "o": "",
+  "x": 303,
+  "y": 184
+ },
+ {
+  "id": 1791965107859,
+  "r": "sur",
+  "n": "santa clara islands",
+  "t": "isla",
+  "o": "",
+  "x": 277,
+  "y": 253
+ },
+ {
+  "id": 1791965124856,
+  "r": "sur",
+  "n": "cisne",
+  "t": "puerto",
+  "o": "",
+  "x": 249,
+  "y": 252
+ },
+ {
+  "id": 1791965143746,
+  "r": "sur",
+  "n": "Santa Clara",
+  "t": "pueblo",
+  "o": "",
+  "x": 300,
+  "y": 236
+ },
+ {
+  "id": 1791965155659,
+  "r": "sur",
+  "n": "Valencia beach",
+  "t": "area",
+  "o": "",
+  "x": 337,
+  "y": 240
+ },
+ {
+  "id": 1791965165708,
+  "r": "sur",
+  "n": "Kana Park",
+  "t": "parque",
+  "o": "",
+  "x": 328,
+  "y": 257
+ },
+ {
+  "id": 1791965176954,
+  "r": "sur",
+  "n": "Corsair",
+  "t": "isla",
+  "o": "",
+  "x": 345,
+  "y": 278
+ },
+ {
+  "id": 1791965184125,
+  "r": "sur",
+  "n": "verdes",
+  "t": "isla",
+  "o": "",
+  "x": 391,
+  "y": 277
+ },
+ {
+  "id": 1791965193796,
+  "r": "sur",
+  "n": "Conny island",
+  "t": "isla",
+  "o": "",
+  "x": 330,
+  "y": 349
+ },
+ {
+  "id": 1791965204948,
+  "r": "sur",
+  "n": "Prismania",
+  "t": "villa",
+  "o": "",
+  "x": 179,
+  "y": 331
+ },
+ {
+  "id": 1791965213507,
+  "r": "sur",
+  "n": "San Marin",
+  "t": "puerto",
+  "o": "",
+  "x": 127,
+  "y": 360
+ },
+ {
+  "id": 1791965233298,
+  "r": "sur",
+  "n": "east cochrane",
+  "t": "puerto",
+  "o": "",
+  "x": 133,
+  "y": 209
+ },
+ {
+  "id": 1791965245838,
+  "r": "sur",
+  "n": "west cochrane",
+  "t": "otro",
+  "o": "",
+  "x": 103,
+  "y": 215
+ },
+ {
+  "id": 1791965257743,
+  "r": "sur",
+  "n": "Fort Calipatria",
+  "t": "pueblo",
+  "o": "",
+  "x": 400,
+  "y": 199
+ },
+ {
+  "id": 1791965279477,
+  "r": "sur",
+  "n": "Yuta temple",
+  "t": "templo",
+  "o": "",
+  "x": 384,
+  "y": 137
+ },
+ {
+  "id": 1791965289209,
+  "r": "sur",
+  "n": "Oakland",
+  "t": "pueblo",
+  "o": "",
+  "x": 354,
+  "y": 82
+ },
+ {
+  "id": 1791965300349,
+  "r": "sur",
+  "n": "Oakland forest",
+  "t": "parque",
+  "o": "",
+  "x": 435,
+  "y": 106
+ },
+ {
+  "id": 1791965307944,
+  "r": "sur",
+  "n": "carrillo crest",
+  "t": "parque",
+  "o": "",
+  "x": 542,
+  "y": 92
+ },
+ {
+  "id": 1791965314653,
+  "r": "sur",
+  "n": "Cecilia park",
+  "t": "parque",
+  "o": "",
+  "x": 527,
+  "y": 9
+ },
+ {
+  "id": 1791965336359,
+  "r": "sur",
+  "n": "Nevada valley",
+  "t": "parque",
+  "o": "",
+  "x": 632,
+  "y": 64
+ },
+ {
+  "id": 1791965358308,
+  "r": "sur",
+  "n": "San Diego",
+  "t": "ciudad",
+  "o": "ubicado en Icy Valley",
+  "x": 608,
+  "y": 190
+ },
+ {
+  "id": 1791965673552,
+  "r": "sur",
+  "n": "Madera",
+  "t": "pueblo",
+  "o": "",
+  "x": 745,
+  "y": 65
+ },
+ {
+  "id": 1791965687564,
+  "r": "sur",
+  "n": "Riverglade",
+  "t": "pueblo",
+  "o": "",
+  "x": 742,
+  "y": 2
+ },
+ {
+  "id": 1791965705162,
+  "r": "sur",
+  "n": "eastfolk",
+  "t": "villa",
+  "o": "",
+  "x": 439,
+  "y": 81
+ },
+ {
+  "id": 1791965714829,
+  "r": "sur",
+  "n": "Santa cecilia",
+  "t": "pueblo",
+  "o": "",
+  "x": 449,
+  "y": 17
+ },
+ {
+  "id": 1791965747204,
+  "r": "sur",
+  "n": "Parkwood",
+  "t": "pueblo",
+  "o": "localidad en conny island",
+  "x": 331,
+  "y": 359
+ },
+ {
+  "id": 1791965780339,
+  "r": "sur",
+  "n": "calipatria peninsula",
+  "t": "area",
+  "o": "",
+  "x": 451,
+  "y": 203
+ },
+ {
+  "id": 1791965810917,
+  "r": "sur",
+  "n": "Icy valley",
+  "t": "parque",
+  "o": "",
+  "x": 648,
+  "y": 267
+ },
+ {
+  "id": 1791965880658,
+  "r": "principal",
+  "n": "Twin islands",
+  "t": "isla",
+  "o": "",
+  "x": 98,
+  "y": 328
+ },
+ {
+  "id": 1791965890567,
+  "r": "principal",
+  "n": "Fort visconti",
+  "t": "pueblo",
+  "o": "",
+  "x": 106,
+  "y": 319
+ },
+ {
+  "id": 1791965895646,
+  "r": "principal",
+  "n": "marina hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 86,
+  "y": 336
+ },
+ {
+  "id": 1791965918046,
+  "r": "principal",
+  "n": "los altos",
+  "t": "area",
+  "o": "",
+  "x": 62,
+  "y": 73
+ },
+ {
+  "id": 1791965926633,
+  "r": "principal",
+  "n": "zaragosa valley",
+  "t": "area",
+  "o": "",
+  "x": 52,
+  "y": 51
+ },
+ {
+  "id": 1791965967133,
+  "r": "estado",
+  "n": "islas kosei",
+  "t": "isla",
+  "o": "",
+  "x": 621,
+  "y": 1138
+ },
+ {
+  "id": 1791965975305,
+  "r": "estado",
+  "n": "Mushroom island",
+  "t": "isla",
+  "o": "Western most island of the county",
+  "x": 753,
+  "y": 1355
+ },
+ {
+  "id": 1791966014401,
+  "r": "estado",
+  "n": "fort yuma",
+  "t": "pueblo",
+  "o": "localidad en desarrollo",
+  "x": 2124,
+  "y": 1384
+ },
+ {
+  "id": 1791966030287,
+  "r": "estado",
+  "n": "campo heights",
+  "t": "villa",
+  "o": "",
+  "x": 2220,
+  "y": 1143
+ },
+ {
+  "id": 1791966044574,
+  "r": "estado",
+  "n": "Green hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 1922,
+  "y": 1247
+ },
+ {
+  "id": 1791966054923,
+  "r": "estado",
+  "n": "San jose",
+  "t": "villa",
+  "o": "",
+  "x": 1864,
+  "y": 1128
+ },
+ {
+  "id": 1791966064356,
+  "r": "estado",
+  "n": "highside beach",
+  "t": "villa",
+  "o": "localidad al noroeste de isla AC",
+  "x": 1725,
+  "y": 1134
+ },
+ {
+  "id": 1791966071662,
+  "r": "estado",
+  "n": "highland",
+  "t": "villa",
+  "o": "poblado costero",
+  "x": 1682,
+  "y": 1194
+ },
+ {
+  "id": 1791966085480,
+  "r": "estado",
+  "n": "Postal",
+  "t": "mina",
+  "o": "area no incorporada",
+  "x": 1756,
+  "y": 1292
+ },
+ {
+  "id": 1791966090931,
+  "r": "estado",
+  "n": "woodridge",
+  "t": "mina",
+  "o": "poblado al sur de green hills",
+  "x": 1887,
+  "y": 1301
+ },
+ {
+  "id": 1791966103274,
+  "r": "estado",
+  "n": "Santa Lucia",
+  "t": "villa",
+  "o": "",
+  "x": 1977,
+  "y": 1237
+ },
+ {
+  "id": 1791966115450,
+  "r": "estado",
+  "n": "Rosalinda Bay",
+  "t": "otro",
+  "o": "",
+  "x": 1990,
+  "y": 1430
+ },
+ {
+  "id": 1791966128854,
+  "r": "estado",
+  "n": "ruinas bay",
+  "t": "ruinas",
+  "o": "",
+  "x": 1984,
+  "y": 1470
+ },
+ {
+  "id": 1791966141932,
+  "r": "estado",
+  "n": "Portisde",
+  "t": "puerto",
+  "o": "puerto al sur de santa rosa",
+  "x": 2009,
+  "y": 1570
+ },
+ {
+  "id": 1791966152285,
+  "r": "estado",
+  "n": "arenas beach",
+  "t": "otro",
+  "o": "suburbio oeaste de rosa point",
+  "x": 2049,
+  "y": 1558
+ },
+ {
+  "id": 1791966162079,
+  "r": "estado",
+  "n": "Rosa Point",
+  "t": "pueblo",
+  "o": "localidad sur de santa rosa",
+  "x": 2120,
+  "y": 1571
+ },
+ {
+  "id": 1791966177843,
+  "r": "estado",
+  "n": "Forteza",
+  "t": "pueblo",
+  "o": "",
+  "x": 3052,
+  "y": 1546
+ },
+ {
+  "id": 1791966188400,
+  "r": "estado",
+  "n": "Bamboo hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 3173,
+  "y": 1639
+ },
+ {
+  "id": 1791966195504,
+  "r": "estado",
+  "n": "Serrano",
+  "t": "villa",
+  "o": "",
+  "x": 3112,
+  "y": 1801
+ },
+ {
+  "id": 1791966207321,
+  "r": "estado",
+  "n": "Santa cecilia",
+  "t": "pueblo",
+  "o": "",
+  "x": 3092,
+  "y": 2076
+ },
+ {
+  "id": 1791966212408,
+  "r": "estado",
+  "n": "Oakland",
+  "t": "ciudad",
+  "o": "",
+  "x": 2850,
+  "y": 2254
+ },
+ {
+  "id": 1791966222999,
+  "r": "estado",
+  "n": "Fort calipatria",
+  "t": "pueblo",
+  "o": "",
+  "x": 2980,
+  "y": 2575
+ },
+ {
+  "id": 1791966230122,
+  "r": "estado",
+  "n": "Santa Clara",
+  "t": "pueblo",
+  "o": "",
+  "x": 2698,
+  "y": 2670
+ },
+ {
+  "id": 1791966238336,
+  "r": "estado",
+  "n": "Parkwood",
+  "t": "pueblo",
+  "o": "",
+  "x": 2769,
+  "y": 2983
+ },
+ {
+  "id": 1791966247792,
+  "r": "estado",
+  "n": "Prismania",
+  "t": "villa",
+  "o": "",
+  "x": 2385,
+  "y": 2917
+ },
+ {
+  "id": 1791966258318,
+  "r": "estado",
+  "n": "San Marin",
+  "t": "puerto",
+  "o": "",
+  "x": 2252,
+  "y": 3020
+ },
+ {
+  "id": 1791966271103,
+  "r": "estado",
+  "n": "Minerva Beach",
+  "t": "otro",
+  "o": "South district of san mateo",
+  "x": 2322,
+  "y": 2393
+ },
+ {
+  "id": 1791966281260,
+  "r": "estado",
+  "n": "North hills",
+  "t": "villa",
+  "o": "",
+  "x": 2261,
+  "y": 2072
+ },
+ {
+  "id": 1791966288485,
+  "r": "estado",
+  "n": "Santa monica bay",
+  "t": "villa",
+  "o": "",
+  "x": 2260,
+  "y": 2161
+ },
+ {
+  "id": 1791966295989,
+  "r": "estado",
+  "n": "Pinnacle",
+  "t": "isla",
+  "o": "isla poblada",
+  "x": 2180,
+  "y": 2179
+ },
+ {
+  "id": 1791966310155,
+  "r": "estado",
+  "n": "Lorenzo hills",
+  "t": "villa",
+  "o": "",
+  "x": 2331,
+  "y": 2226
+ },
+ {
+  "id": 1791966319942,
+  "r": "estado",
+  "n": "east cedar",
+  "t": "isla",
+  "o": "",
+  "x": 2023,
+  "y": 2337
+ },
+ {
+  "id": 1791966324393,
+  "r": "estado",
+  "n": "murico",
+  "t": "isla",
+  "o": "",
+  "x": 1934,
+  "y": 2408
+ },
+ {
+  "id": 1791966333311,
+  "r": "estado",
+  "n": "Ocotillo islands",
+  "t": "isla",
+  "o": "",
+  "x": 1765,
+  "y": 2359
+ },
+ {
+  "id": 1791966349673,
+  "r": "estado",
+  "n": "Santa Barbara",
+  "t": "pueblo",
+  "o": "",
+  "x": 3970,
+  "y": 1933
+ },
+ {
+  "id": 1791966360991,
+  "r": "estado",
+  "n": "Riverglade",
+  "t": "pueblo",
+  "o": "",
+  "x": 3876,
+  "y": 2200
+ },
+ {
+  "id": 1791966369600,
+  "r": "estado",
+  "n": "San Diego",
+  "t": "ciudad",
+  "o": "Ciudad pequeña en icy valley",
+  "x": 3515,
+  "y": 2538
+ },
+ {
+  "id": 1791966402511,
+  "r": "estado",
+  "n": "puente hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 2198,
+  "y": 845
+ },
+ {
+  "id": 1791966415979,
+  "r": "estado",
+  "n": "Northwood",
+  "t": "pueblo",
+  "o": "",
+  "x": 2363,
+  "y": 318
+ },
+ {
+  "id": 1791966424868,
+  "r": "estado",
+  "n": "San Juan",
+  "t": "villa",
+  "o": "",
+  "x": 2185,
+  "y": 489
+ },
+ {
+  "id": 1791966442443,
+  "r": "estado",
+  "n": "Fort Tulare",
+  "t": "ciudad",
+  "o": "",
+  "x": 1639,
+  "y": 1011
+ },
+ {
+  "id": 1791966449878,
+  "r": "estado",
+  "n": "Concepcion",
+  "t": "pueblo",
+  "o": "",
+  "x": 1482,
+  "y": 957
+ },
+ {
+  "id": 1791966460810,
+  "r": "estado",
+  "n": "Tulare",
+  "t": "isla",
+  "o": "",
+  "x": 1565,
+  "y": 1001
+ },
+ {
+  "id": 1791966467373,
+  "r": "estado",
+  "n": "acacia island",
+  "t": "isla",
+  "o": "",
+  "x": 1804,
+  "y": 1215
+ },
+ {
+  "id": 1791966478501,
+  "r": "estado",
+  "n": "Santa rosa islands",
+  "t": "isla",
+  "o": "",
+  "x": 2018,
+  "y": 1346
+ },
+ {
+  "id": 1791966485680,
+  "r": "estado",
+  "n": "yuma island",
+  "t": "isla",
+  "o": "",
+  "x": 2164,
+  "y": 1310
+ },
+ {
+  "id": 1791966498514,
+  "r": "estado",
+  "n": "luz islands",
+  "t": "isla",
+  "o": "",
+  "x": 1708,
+  "y": 1528
+ },
+ {
+  "id": 1791966511806,
+  "r": "estado",
+  "n": "aiki islands",
+  "t": "isla",
+  "o": "",
+  "x": 1218,
+  "y": 1653
+ },
+ {
+  "id": 1791966531565,
+  "r": "estado",
+  "n": "Micelium heights",
+  "t": "ciudad",
+  "o": "",
+  "x": 836,
+  "y": 1478
+ },
+ {
+  "id": 1791966542379,
+  "r": "estado",
+  "n": "San Bernando",
+  "t": "pueblo",
+  "o": "",
+  "x": 660,
+  "y": 1467
+ },
+ {
+  "id": 1791966555158,
+  "r": "estado",
+  "n": "abedul hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 1048,
+  "y": 2211
+ },
+ {
+  "id": 1791966562104,
+  "r": "estado",
+  "n": "oak beach",
+  "t": "villa",
+  "o": "",
+  "x": 1113,
+  "y": 2145
+ },
+ {
+  "id": 1791966571453,
+  "r": "estado",
+  "n": "montero",
+  "t": "pueblo",
+  "o": "",
+  "x": 1473,
+  "y": 2550
+ },
+ {
+  "id": 1791966577379,
+  "r": "estado",
+  "n": "ocotillo",
+  "t": "pueblo",
+  "o": "localidad principal de las islas ocotillo",
+  "x": 1729,
+  "y": 2414
+ },
+ {
+  "id": 1791966583483,
+  "r": "estado",
+  "n": "cochrane islands",
+  "t": "isla",
+  "o": "",
+  "x": 2213,
+  "y": 2600
+ },
+ {
+  "id": 1791966596090,
+  "r": "estado",
+  "n": "east cochrane islands",
+  "t": "isla",
+  "o": "",
+  "x": 2324,
+  "y": 2596
+ },
+ {
+  "id": 1791966602234,
+  "r": "estado",
+  "n": "nautilus",
+  "t": "isla",
+  "o": "",
+  "x": 2367,
+  "y": 2662
+ },
+ {
+  "id": 1791966610304,
+  "r": "estado",
+  "n": "borrego hills",
+  "t": "villa",
+  "o": "",
+  "x": 2437,
+  "y": 2532
+ },
+ {
+  "id": 1791966616365,
+  "r": "estado",
+  "n": "manglares",
+  "t": "isla",
+  "o": "",
+  "x": 2111,
+  "y": 2656
+ },
+ {
+  "id": 1791966621474,
+  "r": "estado",
+  "n": "cisne island",
+  "t": "isla",
+  "o": "isla poblado",
+  "x": 2574,
+  "y": 2727
+ },
+ {
+  "id": 1791966628532,
+  "r": "estado",
+  "n": "corsair",
+  "t": "isla",
+  "o": "",
+  "x": 2824,
+  "y": 2782
+ },
+ {
+  "id": 1791966637524,
+  "r": "estado",
+  "n": "haneda park",
+  "t": "parque",
+  "o": "",
+  "x": 2789,
+  "y": 2726
+ },
+ {
+  "id": 1791966648844,
+  "r": "estado",
+  "n": "valencia beach",
+  "t": "puerto",
+  "o": "",
+  "x": 2775,
+  "y": 2668
+ },
+ {
+  "id": 1791966664898,
+  "r": "estado",
+  "n": "verdes island",
+  "t": "isla",
+  "o": "",
+  "x": 2948,
+  "y": 2777
+ },
+ {
+  "id": 1791966675720,
+  "r": "estado",
+  "n": "Calipatria peninsula",
+  "t": "parque",
+  "o": "",
+  "x": 3088,
+  "y": 2619
+ },
+ {
+  "id": 1791966712881,
+  "r": "estado",
+  "n": "del sol",
+  "t": "villa",
+  "o": "",
+  "x": 2990,
+  "y": 1081
+ },
+ {
+  "id": 1791966745374,
+  "r": "estado",
+  "n": "miramar islands",
+  "t": "isla",
+  "o": "",
+  "x": 1287,
+  "y": 979
+ },
+ {
+  "id": 1791966768649,
+  "r": "estado",
+  "n": "melissa hills",
+  "t": "ciudad",
+  "o": "",
+  "x": 2438,
+  "y": 1985
+ },
+ {
+  "id": 1791966781392,
+  "r": "estado",
+  "n": "west peninsula",
+  "t": "otro",
+  "o": "",
+  "x": 2379,
+  "y": 1970
+ },
+ {
+  "id": 1791966789946,
+  "r": "estado",
+  "n": "sarahi island",
+  "t": "isla",
+  "o": "",
+  "x": 2386,
+  "y": 2023
+ },
+ {
+  "id": 1791966799725,
+  "r": "estado",
+  "n": "San Bruno",
+  "t": "ciudad",
+  "o": "",
+  "x": 2533,
+  "y": 1967
+ },
+ {
+  "id": 1791966812535,
+  "r": "estado",
+  "n": "Guilia Beach",
+  "t": "pueblo",
+  "o": "",
+  "x": 2617,
+  "y": 1872
+ },
+ {
+  "id": 1791966821507,
+  "r": "estado",
+  "n": "Savannah Hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 2559,
+  "y": 1838
+ },
+ {
+  "id": 1791966832450,
+  "r": "estado",
+  "n": "Monroe Beach",
+  "t": "ciudad",
+  "o": "",
+  "x": 2469,
+  "y": 1872
+ },
+ {
+  "id": 1791966849487,
+  "r": "estado",
+  "n": "Acacia lake",
+  "t": "pueblo",
+  "o": "",
+  "x": 2514,
+  "y": 1749
+ },
+ {
+  "id": 1791966860094,
+  "r": "estado",
+  "n": "Red heights",
+  "t": "villa",
+  "o": "",
+  "x": 2577,
+  "y": 1717
+ },
+ {
+  "id": 1791966871477,
+  "r": "estado",
+  "n": "Oakside hills",
+  "t": "parque",
+  "o": "area verde de la zona central de la isla SC",
+  "x": 2536,
+  "y": 1543
+ },
+ {
+  "id": 1791966881467,
+  "r": "estado",
+  "n": "United Park",
+  "t": "pueblo",
+  "o": "",
+  "x": 2494,
+  "y": 1501
+ },
+ {
+  "id": 1791966892146,
+  "r": "estado",
+  "n": "Sakura park",
+  "t": "parque",
+  "o": "",
+  "x": 2603,
+  "y": 1369
+ },
+ {
+  "id": 1791966901806,
+  "r": "estado",
+  "n": "Diana island",
+  "t": "isla",
+  "o": "",
+  "x": 2677,
+  "y": 1411
+ },
+ {
+  "id": 1792013095355,
+  "r": "estado",
+  "n": "west ocean temple",
+  "t": "templo",
+  "o": "",
+  "x": 1352,
+  "y": 1231
+ },
+ {
+  "id": 1792013103041,
+  "r": "estado",
+  "n": "allende island",
+  "t": "isla",
+  "o": "",
+  "x": 1221,
+  "y": 1206
+ },
+ {
+  "id": 1792013109053,
+  "r": "estado",
+  "n": "rivera",
+  "t": "isla",
+  "o": "",
+  "x": 1155,
+  "y": 1363
+ },
+ {
+  "id": 1792013113836,
+  "r": "estado",
+  "n": "ayumi",
+  "t": "isla",
+  "o": "",
+  "x": 1345,
+  "y": 1370
+ },
+ {
+  "id": 1792013127001,
+  "r": "estado",
+  "n": "shizuoka",
+  "t": "isla",
+  "o": "",
+  "x": 1293,
+  "y": 1442
+ },
+ {
+  "id": 1792013131935,
+  "r": "estado",
+  "n": "orosco",
+  "t": "isla",
+  "o": "",
+  "x": 1500,
+  "y": 1450
+ },
+ {
+  "id": 1792013139127,
+  "r": "estado",
+  "n": "toucan",
+  "t": "isla",
+  "o": "",
+  "x": 1560,
+  "y": 1629
+ },
+ {
+  "id": 1792013163753,
+  "r": "estado",
+  "n": "Alpine",
+  "t": "villa",
+  "o": "",
+  "x": 1977,
+  "y": 1155
+ },
+ {
+  "id": 1792013246300,
+  "r": "estado",
+  "n": "san gabriel mountains",
+  "t": "parque",
+  "o": "",
+  "x": 1791,
+  "y": 1189
+ },
+ {
+  "id": 1792013331412,
+  "r": "estado",
+  "n": "bottle point",
+  "t": "area",
+  "o": "puerto",
+  "x": 2605,
+  "y": 1708
+ },
+ {
+  "id": 1792013347632,
+  "r": "estado",
+  "n": "maurice island",
+  "t": "isla",
+  "o": "cercas de ciudad acacia hills",
+  "x": 2638,
+  "y": 1657
+ },
+ {
+  "id": 1792013417442,
+  "r": "estado",
+  "n": "Santa catalina Island",
+  "t": "isla",
+  "o": "Isla principal del mapa",
+  "x": 2522,
+  "y": 1717
+ },
+ {
+  "id": 1792013659801,
+  "r": "estado",
+  "n": "icy valley",
+  "t": "area",
+  "o": "",
+  "x": 3660,
+  "y": 2781
+ },
+ {
+  "id": 1792013676927,
+  "r": "estado",
+  "n": "Saho valley",
+  "t": "parque",
+  "o": "",
+  "x": 4094,
+  "y": 2202
+ },
+ {
+  "id": 1792013707219,
+  "r": "estado",
+  "n": "sierra norte park",
+  "t": "parque",
+  "o": "",
+  "x": 4049,
+  "y": 1469
+ },
+ {
+  "id": 1792013724803,
+  "r": "estado",
+  "n": "bamboo park",
+  "t": "parque",
+  "o": "",
+  "x": 3099,
+  "y": 986
+ },
+ {
+  "id": 1792013732985,
+  "r": "estado",
+  "n": "Dark Forest",
+  "t": "parque",
+  "o": "",
+  "x": 2305,
+  "y": 585
+ },
+ {
+  "id": 1792013740545,
+  "r": "estado",
+  "n": "Guadalupe national park",
+  "t": "parque",
+  "o": "",
+  "x": 1951,
+  "y": 939
+ },
+ {
+  "id": 1792013761094,
+  "r": "estado",
+  "n": "Kana Forest",
+  "t": "parque",
+  "o": "",
+  "x": 1786,
+  "y": 446
+ },
+ {
+  "id": 1792013861110,
+  "r": "estado",
+  "n": "San mateo islands",
+  "t": "isla",
+  "o": "",
+  "x": 2328,
+  "y": 2264
+ },
+ {
+  "id": 1792013867450,
+  "r": "estado",
+  "n": "bean island",
+  "t": "isla",
+  "o": "",
+  "x": 2246,
+  "y": 2374
+ },
+ {
+  "id": 1792013876159,
+  "r": "estado",
+  "n": "nugget",
+  "t": "isla",
+  "o": "",
+  "x": 2407,
+  "y": 2305
+ },
+ {
+  "id": 1792013885253,
+  "r": "estado",
+  "n": "dove",
+  "t": "isla",
+  "o": "",
+  "x": 2446,
+  "y": 2234
+ },
+ {
+  "id": 1792013907696,
+  "r": "estado",
+  "n": "Maine Beach",
+  "t": "otro",
+  "o": "suburb of dalton beach",
+  "x": 2442,
+  "y": 2195
+ },
+ {
+  "id": 1792013937442,
+  "r": "estado",
+  "n": "westport",
+  "t": "otro",
+  "o": "suburb port of san mateo (city)",
+  "x": 2229,
+  "y": 2271
+ },
+ {
+  "id": 1792014437621,
+  "r": "estado",
+  "n": "San joaquin county",
+  "t": "otro",
+  "o": "",
+  "x": 381,
+  "y": 1963
+ },
+ {
+  "id": 1792014456754,
+  "r": "estado",
+  "n": "San joaquin islands",
+  "t": "isla",
+  "o": "",
+  "x": 331,
+  "y": 1213
+ },
+ {
+  "id": 1792014471379,
+  "r": "estado",
+  "n": "southwood",
+  "t": "isla",
+  "o": "",
+  "x": 932,
+  "y": 745
+ },
+ {
+  "id": 1792014517152,
+  "r": "estado",
+  "n": "aomori",
+  "t": "isla",
+  "o": "",
+  "x": 1048,
+  "y": 1831
+ },
+ {
+  "id": 1792014521759,
+  "r": "estado",
+  "n": "tulipan",
+  "t": "isla",
+  "o": "",
+  "x": 1318,
+  "y": 2018
+ },
+ {
+  "id": 1792014526557,
+  "r": "estado",
+  "n": "boyer",
+  "t": "isla",
+  "o": "",
+  "x": 1291,
+  "y": 2146
+ },
+ {
+  "id": 1792014531585,
+  "r": "estado",
+  "n": "ysabel",
+  "t": "isla",
+  "o": "",
+  "x": 1282,
+  "y": 2275
+ },
+ {
+  "id": 1792014547803,
+  "r": "estado",
+  "n": "flores",
+  "t": "isla",
+  "o": "",
+  "x": 1423,
+  "y": 2072
+ },
+ {
+  "id": 1792014552237,
+  "r": "estado",
+  "n": "anza",
+  "t": "isla",
+  "o": "",
+  "x": 1101,
+  "y": 2398
+ },
+ {
+  "id": 1792014557981,
+  "r": "estado",
+  "n": "tortugas",
+  "t": "isla",
+  "o": "",
+  "x": 1473,
+  "y": 2387
+ },
+ {
+  "id": 1792014575481,
+  "r": "estado",
+  "n": "marina temple",
+  "t": "ruinas",
+  "o": "",
+  "x": 2237,
+  "y": 2902
+ },
+ {
+  "id": 1792014591172,
+  "r": "estado",
+  "n": "corales temple",
+  "t": "ruinas",
+  "o": "",
+  "x": 2686,
+  "y": 2828
+ },
+ {
+  "id": 1792014602457,
+  "r": "estado",
+  "n": "oakland forest",
+  "t": "parque",
+  "o": "",
+  "x": 3051,
+  "y": 2269
+ },
+ {
+  "id": 1792014610800,
+  "r": "estado",
+  "n": "cecilia park",
+  "t": "parque",
+  "o": "",
+  "x": 3220,
+  "y": 2101
+ },
+ {
+  "id": 1792014619408,
+  "r": "estado",
+  "n": "carillo crest",
+  "t": "area",
+  "o": "",
+  "x": 3340,
+  "y": 2312
+ },
+ {
+  "id": 1792014640550,
+  "r": "estado",
+  "n": "east great jungles",
+  "t": "parque",
+  "o": "",
+  "x": 3436,
+  "y": 1463
+ },
+ {
+  "id": 1792014660982,
+  "r": "estado",
+  "n": "luciana bay",
+  "t": "area",
+  "o": "",
+  "x": 3042,
+  "y": 1667
+ },
+ {
+  "id": 1792014767483,
+  "r": "sur",
+  "n": "Newport",
+  "t": "capital",
+  "o": "",
+  "x": 260,
+  "y": 4
+ },
+ {
+  "id": 1792014774579,
+  "r": "sur",
+  "n": "Sarahi island",
+  "t": "isla",
+  "o": "",
+  "x": 187,
+  "y": 4
+ },
+ {
+  "id": 1792014853037,
+  "r": "sur",
+  "n": "corales temple",
+  "t": "templo",
+  "o": "",
+  "x": 293,
+  "y": 298
+ },
+ {
+  "id": 1792014858720,
+  "r": "sur",
+  "n": "marina temple",
+  "t": "templo",
+  "o": "",
+  "x": 123,
+  "y": 322
+ },
+ {
+  "id": 1792014878885,
+  "r": "estado",
+  "n": "cortez",
+  "t": "isla",
+  "o": "isla-poblado",
+  "x": 2706,
+  "y": 2542
+ },
+ {
+  "id": 1792014906584,
+  "r": "estado",
+  "n": "conny island",
+  "t": "isla",
+  "o": "",
+  "x": 2801,
+  "y": 3001
+ },
+ {
+  "id": 1792014930105,
+  "r": "estado",
+  "n": "west cochrane",
+  "t": "pueblo",
+  "o": "",
+  "x": 2176,
+  "y": 2613
+ },
+ {
+  "id": 1792014937190,
+  "r": "estado",
+  "n": "east cochrane",
+  "t": "pueblo",
+  "o": "",
+  "x": 2245,
+  "y": 2594
+ },
+ {
+  "id": 1792014966678,
+  "r": "estado",
+  "n": "borrego island",
+  "t": "isla",
+  "o": "",
+  "x": 2459,
+  "y": 2529
+ },
+ {
+  "id": 1792014991357,
+  "r": "estado",
+  "n": "east ocotillo",
+  "t": "villa",
+  "o": "",
+  "x": 1804,
+  "y": 2351
+ },
+ {
+  "id": 1792015084352,
+  "r": "estado",
+  "n": "Woodvale",
+  "t": "puerto",
+  "o": "isla-Pueblo de las islas woodvale",
+  "x": 1803,
+  "y": 2070
+ },
+ {
+  "id": 1792015098330,
+  "r": "estado",
+  "n": "Kern",
+  "t": "villa",
+  "o": "isla este de woodvale",
+  "x": 1868,
+  "y": 2046
+ },
+ {
+  "id": 1792015111182,
+  "r": "estado",
+  "n": "Marina hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 2082,
+  "y": 1927
+ },
+ {
+  "id": 1792015117071,
+  "r": "estado",
+  "n": "Fort Visconti",
+  "t": "pueblo",
+  "o": "",
+  "x": 2109,
+  "y": 1896
+ },
+ {
+  "id": 1792015130318,
+  "r": "estado",
+  "n": "mangle island",
+  "t": "isla",
+  "o": "",
+  "x": 2084,
+  "y": 1977
+ },
+ {
+  "id": 1792015137101,
+  "r": "estado",
+  "n": "islote azalea",
+  "t": "isla",
+  "o": "",
+  "x": 2096,
+  "y": 1966
+ },
+ {
+  "id": 1792015174385,
+  "r": "estado",
+  "n": "barco hundido 1",
+  "t": "ruinas",
+  "o": "",
+  "x": 2173,
+  "y": 1264
+ },
+ {
+  "id": 1792016369957,
+  "r": "estado",
+  "n": "abedul island",
+  "t": "isla",
+  "o": "",
+  "x": 1103,
+  "y": 2186
+ },
+ {
+  "id": 1792016385432,
+  "r": "estado",
+  "n": "anza temple",
+  "t": "templo",
+  "o": "",
+  "x": 1239,
+  "y": 2383
+ },
+ {
+  "id": 1792016403443,
+  "r": "estado",
+  "n": "San Angel",
+  "t": "villa",
+  "o": "",
+  "x": 1601,
+  "y": 2014
+ },
+ {
+  "id": 1792016411073,
+  "r": "estado",
+  "n": "flores",
+  "t": "pueblo",
+  "o": "",
+  "x": 1420,
+  "y": 2082
+ },
+ {
+  "id": 1792016420962,
+  "r": "estado",
+  "n": "Okuto",
+  "t": "isla",
+  "o": "",
+  "x": 1417,
+  "y": 1866
+ },
+ {
+  "id": 1792016430267,
+  "r": "estado",
+  "n": "North aiki",
+  "t": "pueblo",
+  "o": "",
+  "x": 1163,
+  "y": 1631
+ },
+ {
+  "id": 1792016434691,
+  "r": "estado",
+  "n": "South aiki",
+  "t": "pueblo",
+  "o": "",
+  "x": 1249,
+  "y": 1718
+ },
+ {
+  "id": 1792016447529,
+  "r": "estado",
+  "n": "islas dione",
+  "t": "isla",
+  "o": "",
+  "x": 1132,
+  "y": 1492
+ },
+ {
+  "id": 1792016456356,
+  "r": "estado",
+  "n": "east orosco",
+  "t": "isla",
+  "o": "",
+  "x": 2054,
+  "y": 1362
+ },
+ {
+  "id": 1792016464867,
+  "r": "estado",
+  "n": "parkland",
+  "t": "puerto",
+  "o": "",
+  "x": 1437,
+  "y": 1446
+ },
+ {
+  "id": 1792016520973,
+  "r": "estado",
+  "n": "dorado",
+  "t": "isla",
+  "o": "",
+  "x": 1735,
+  "y": 1957
+ },
+ {
+  "id": 1792016537839,
+  "r": "estado",
+  "n": "boyer",
+  "t": "villa",
+  "o": "",
+  "x": 1282,
+  "y": 2133
+ },
+ {
+  "id": 1792016544394,
+  "r": "estado",
+  "n": "ysabel hills",
+  "t": "villa",
+  "o": "",
+  "x": 1291,
+  "y": 2259
+ },
+ {
+  "id": 1792016551882,
+  "r": "estado",
+  "n": "anza",
+  "t": "pueblo",
+  "o": "",
+  "x": 1118,
+  "y": 2402
+ },
+ {
+  "id": 1792016589204,
+  "r": "estado",
+  "n": "yuta temple",
+  "t": "templo",
+  "o": "",
+  "x": 2926,
+  "y": 2403
+ },
+ {
+  "id": 1792016630223,
+  "r": "estado",
+  "n": "palmares park",
+  "t": "parque",
+  "o": "",
+  "x": 2876,
+  "y": 705
+ },
+ {
+  "id": 1792016642216,
+  "r": "estado",
+  "n": "san juan swamps",
+  "t": "area",
+  "o": "",
+  "x": 2042,
+  "y": 621
+ },
+ {
+  "id": 1792017060880,
+  "r": "estado",
+  "n": "Tortugas",
+  "t": "villa",
+  "o": "",
+  "x": 1477,
+  "y": 2395
+ },
+ {
+  "id": 1792017072325,
+  "r": "estado",
+  "n": "Montero islands",
+  "t": "isla",
+  "o": "",
+  "x": 1474,
+  "y": 2536
+ },
+ {
+  "id": 1792022068199,
+  "r": "estado",
+  "n": "Madera springs",
+  "t": "pueblo",
+  "o": "poblado en oakland forest",
+  "x": 2943,
+  "y": 2402
+ },
+ {
+  "id": 1792022113367,
+  "r": "estado",
+  "n": "nevada valley",
+  "t": "parque",
+  "o": "",
+  "x": 3649,
+  "y": 2186
+ },
+ {
+  "id": 1792022161072,
+  "r": "estado",
+  "n": "serrano jungles",
+  "t": "parque",
+  "o": "",
+  "x": 3286,
+  "y": 1819
+ },
+ {
+  "id": 1792022182593,
+  "r": "estado",
+  "n": "san andreas desert",
+  "t": "parque",
+  "o": "",
+  "x": 2499,
+  "y": 1188
+ },
+ {
+  "id": 1792041050508,
+  "r": "estado",
+  "n": "tulipan springs",
+  "t": "parque",
+  "o": "forest",
+  "x": 3535,
+  "y": 2376
+ },
+ {
+  "id": 1792054441324,
+  "r": "estado",
+  "n": "Santa rosalia beach",
+  "t": "otro",
+  "o": "East neighboor",
+  "x": 2694,
+  "y": 1966
+ },
+ {
+  "id": 1792054453812,
+  "r": "estado",
+  "n": "acacia valley",
+  "t": "otro",
+  "o": "north neighboor",
+  "x": 2604,
+  "y": 1929
+ },
+ {
+  "id": 1792054471387,
+  "r": "estado",
+  "n": "monroe bay",
+  "t": "otro",
+  "o": "north neighboor monroe beach",
+  "x": 2468,
+  "y": 1807
+ },
+ {
+  "id": 1792054529774,
+  "r": "estado",
+  "n": "Okuto",
+  "t": "villa",
+  "o": "",
+  "x": 1411,
+  "y": 1866
+ },
+ {
+  "id": 1792054553488,
+  "r": "estado",
+  "n": "cisne",
+  "t": "villa",
+  "o": "",
+  "x": 2575,
+  "y": 2721
+ },
+ {
+  "id": 1792054598355,
+  "r": "estado",
+  "n": "southcoast",
+  "t": "villa",
+  "o": "",
+  "x": 2944,
+  "y": 2803
+ },
+ {
+  "id": 1792054618148,
+  "r": "estado",
+  "n": "prismania island",
+  "t": "isla",
+  "o": "",
+  "x": 2386,
+  "y": 2913
+ },
+ {
+  "id": 1792054638043,
+  "r": "estado",
+  "n": "san marin island",
+  "t": "isla",
+  "o": "",
+  "x": 2241,
+  "y": 3039
+ },
+ {
+  "id": 1792054663568,
+  "r": "estado",
+  "n": "encino",
+  "t": "villa",
+  "o": "",
+  "x": 3395,
+  "y": 2356
+ },
+ {
+  "id": 1792054690323,
+  "r": "estado",
+  "n": "luz",
+  "t": "pueblo",
+  "o": "",
+  "x": 1730,
+  "y": 1495
+ },
+ {
+  "id": 1792054697229,
+  "r": "estado",
+  "n": "east luz island",
+  "t": "isla",
+  "o": "",
+  "x": 1676,
+  "y": 1494
+ },
+ {
+  "id": 1792054720293,
+  "r": "estado",
+  "n": "north dione",
+  "t": "villa",
+  "o": "",
+  "x": 1109,
+  "y": 1473
+ },
+ {
+  "id": 1792054756546,
+  "r": "estado",
+  "n": "aomori",
+  "t": "villa",
+  "o": "",
+  "x": 1049,
+  "y": 1825
+ },
+ {
+  "id": 1792054777165,
+  "r": "estado",
+  "n": "dorado bay",
+  "t": "villa",
+  "o": "",
+  "x": 1506,
+  "y": 1035
+ },
+ {
+  "id": 1792054790327,
+  "r": "estado",
+  "n": "cactae coast",
+  "t": "otro",
+  "o": "",
+  "x": 1607,
+  "y": 921
+ },
+ {
+  "id": 1792054846524,
+  "r": "estado",
+  "n": "contracosta",
+  "t": "villa",
+  "o": "",
+  "x": 1328,
+  "y": 962
+ },
+ {
+  "id": 1792054873519,
+  "r": "estado",
+  "n": "crisantemo bay",
+  "t": "puerto",
+  "o": "extension from fort tulare",
+  "x": 1701,
+  "y": 1031
+ },
+ {
+  "id": 1792054908369,
+  "r": "estado",
+  "n": "Santa Rosalia",
+  "t": "ciudad",
+  "o": "ciudad principal de la isla SR",
+  "x": 2055,
+  "y": 1471
+ },
+ {
+  "id": 1792054934438,
+  "r": "estado",
+  "n": "eugene canyon",
+  "t": "mina",
+  "o": "",
+  "x": 2544,
+  "y": 1725
+ },
+ {
+  "id": 1792054952212,
+  "r": "estado",
+  "n": "monte catalina",
+  "t": "parque",
+  "o": "",
+  "x": 2503,
+  "y": 1792
+ },
+ {
+  "id": 1792054990063,
+  "r": "estado",
+  "n": "oakside beach",
+  "t": "parque",
+  "o": "",
+  "x": 2557,
+  "y": 1490
+ },
+ {
+  "id": 1792055205159,
+  "r": "estado",
+  "n": "yukon county",
+  "t": "area",
+  "o": "",
+  "x": 4222,
+  "y": 2681
+ },
+ {
+  "id": 1792055231000,
+  "r": "estado",
+  "n": "Salinas county",
+  "t": "area",
+  "o": "",
+  "x": 2406,
+  "y": 135
+ },
+ {
+  "id": 1792055288288,
+  "r": "estado",
+  "n": "west islands (region)",
+  "t": "area",
+  "o": "",
+  "x": 1462,
+  "y": 2176
+ },
+ {
+  "id": 1792055315964,
+  "r": "estado",
+  "n": "east county (region)",
+  "t": "area",
+  "o": "",
+  "x": 3613,
+  "y": 1837
+ },
+ {
+  "id": 1792055334049,
+  "r": "estado",
+  "n": "South islands (region)",
+  "t": "area",
+  "o": "",
+  "x": 2479,
+  "y": 2810
+ },
+ {
+  "id": 1792130036710,
+  "r": "estado",
+  "n": "canyon hill",
+  "t": "area",
+  "o": "",
+  "x": 3024,
+  "y": 2266
+ },
+ {
+  "id": 1792401076043,
+  "r": "estado",
+  "n": "Glaciares",
+  "t": "villa",
+  "o": "",
+  "x": 3678,
+  "y": 2567
+ },
+ {
+  "id": 1792401110179,
+  "r": "estado",
+  "n": "Yukon",
+  "t": "pueblo",
+  "o": "",
+  "x": 4390,
+  "y": 2283
+ },
+ {
+  "id": 1792401206750,
+  "r": "estado",
+  "n": "palmwood",
+  "t": "villa",
+  "o": "",
+  "x": 3236,
+  "y": 1964
+ },
+ {
+  "id": 1792401270877,
+  "r": "estado",
+  "n": "north glades",
+  "t": "parque",
+  "o": "",
+  "x": 2606,
+  "y": 426
+ },
+ {
+  "id": 1792401280558,
+  "r": "estado",
+  "n": "sorento valley",
+  "t": "area",
+  "o": "",
+  "x": 2417,
+  "y": 422
+ },
+ {
+  "id": 1792401386910,
+  "r": "estado",
+  "n": "ocean island",
+  "t": "isla",
+  "o": "",
+  "x": 2470,
+  "y": 2074
+ },
+ {
+  "id": 1792401393180,
+  "r": "estado",
+  "n": "bamboo island",
+  "t": "isla",
+  "o": "",
+  "x": 2434,
+  "y": 2073
+ },
+ {
+  "id": 1792401415065,
+  "r": "estado",
+  "n": "cedar island",
+  "t": "isla",
+  "o": "",
+  "x": 2115,
+  "y": 2324
+ },
+ {
+  "id": 1792401458142,
+  "r": "estado",
+  "n": "laguna bay",
+  "t": "area",
+  "o": "",
+  "x": 3714,
+  "y": 2468
+ },
+ {
+  "id": 1792401473749,
+  "r": "estado",
+  "n": "diamante lake",
+  "t": "area",
+  "o": "",
+  "x": 3415,
+  "y": 2025
+ },
+ {
+  "id": 1792401498506,
+  "r": "estado",
+  "n": "catalina bayside",
+  "t": "area",
+  "o": "",
+  "x": 2505,
+  "y": 2021
+ },
+ {
+  "id": 1792401518652,
+  "r": "estado",
+  "n": "puerto bay",
+  "t": "area",
+  "o": "",
+  "x": 2402,
+  "y": 1952
+ },
+ {
+  "id": 1792401613113,
+  "r": "estado",
+  "n": "oakside bay",
+  "t": "area",
+  "o": "",
+  "x": 2562,
+  "y": 1600
+ },
+ {
+  "id": 1792401645590,
+  "r": "estado",
+  "n": "arenas bay",
+  "t": "area",
+  "o": "",
+  "x": 2981,
+  "y": 1743
+ },
+ {
+  "id": 1792436658943,
+  "r": "estado",
+  "n": "barco hundido #2",
+  "t": "ruinas",
+  "o": "",
+  "x": 2597,
+  "y": 2532
+ },
+ {
+  "id": 1792436825083,
+  "r": "estado",
+  "n": "pinos lake",
+  "t": "parque",
+  "o": "",
+  "x": 1118,
+  "y": 450
+ },
+ {
+  "id": 1792437311452,
+  "r": "estado",
+  "n": "stanislaus",
+  "t": "pueblo",
+  "o": "",
+  "x": 89,
+  "y": 707
+ },
+ {
+  "id": 1792437435368,
+  "r": "estado",
+  "n": "fungi hills",
+  "t": "parque",
+  "o": "",
+  "x": 771,
+  "y": 1400
+ },
+ {
+  "id": 1792438648037,
+  "r": "estado",
+  "n": "east savannah",
+  "t": "parque",
+  "o": "",
+  "x": 3039,
+  "y": 1456
+ },
+ {
+  "id": 1792550119430,
+  "r": "estado",
+  "n": "maricopa island",
+  "t": "isla",
+  "o": "",
+  "x": 2341,
+  "y": 1988
+ },
+ {
+  "id": 1792551423237,
+  "r": "estado",
+  "n": "arenas island",
+  "t": "isla",
+  "o": "",
+  "x": 1410,
+  "y": 2282
+ },
+ {
+  "id": 1792553367585,
+  "r": "estado",
+  "n": "tyler isle",
+  "t": "isla",
+  "o": "",
+  "x": 1184,
+  "y": 1949
+ },
+ {
+  "id": 1792554697545,
+  "r": "estado",
+  "n": "montez island",
+  "t": "isla",
+  "o": "",
+  "x": 1218,
+  "y": 1810
+ },
+ {
+  "id": 1793075071264,
+  "r": "estado",
+  "n": "zavala valley",
+  "t": "parque",
+  "o": "",
+  "x": 1991,
+  "y": 1294
+ },
+ {
+  "id": 1793075093346,
+  "r": "estado",
+  "n": "mesa coast",
+  "t": "area",
+  "o": "",
+  "x": 2084,
+  "y": 1272
+ },
+ {
+  "id": 1793075099968,
+  "r": "estado",
+  "n": "los altos",
+  "t": "area",
+  "o": "",
+  "x": 2058,
+  "y": 1342
+ },
+ {
+  "id": 1793075150594,
+  "r": "estado",
+  "n": "sonoma hills",
+  "t": "area",
+  "o": "",
+  "x": 2155,
+  "y": 1241
+ },
+ {
+  "id": 1793682522651,
+  "r": "estado",
+  "n": "habra canyon",
+  "t": "villa",
+  "o": "",
+  "x": 2573,
+  "y": 987
+ },
+ {
+  "id": 1793682535592,
+  "r": "estado",
+  "n": "Norte pyramid",
+  "t": "ruinas",
+  "o": "",
+  "x": 2655,
+  "y": 988
+ },
+ {
+  "id": 1793682555718,
+  "r": "estado",
+  "n": "caliente lake",
+  "t": "mina",
+  "o": "",
+  "x": 2695,
+  "y": 789
+ },
+ {
+  "id": 1793682619644,
+  "r": "estado",
+  "n": "Desertica hills",
+  "t": "pueblo",
+  "o": "",
+  "x": 2437,
+  "y": 1352
+ },
+ {
+  "id": 1793682628984,
+  "r": "estado",
+  "n": "cactus beach",
+  "t": "villa",
+  "o": "",
+  "x": 2498,
+  "y": 1316
+ },
+ {
+  "id": 1793682659136,
+  "r": "estado",
+  "n": "cactae ravine",
+  "t": "area",
+  "o": "",
+  "x": 2477,
+  "y": 1201
+ },
+ {
+  "id": 1793682673896,
+  "r": "estado",
+  "n": "antonio hills",
+  "t": "villa",
+  "o": "",
+  "x": 2717,
+  "y": 1183
+ },
+ {
+  "id": 1793682686407,
+  "r": "estado",
+  "n": "constantia deserte",
+  "t": "area",
+  "o": "",
+  "x": 2654,
+  "y": 1211
+ },
+ {
+  "id": 1793682699861,
+  "r": "estado",
+  "n": "madrigal heights",
+  "t": "villa",
+  "o": "",
+  "x": 2567,
+  "y": 1191
+ },
+ {
+  "id": 1793682724487,
+  "r": "estado",
+  "n": "bovine coast",
+  "t": "puerto",
+  "o": "",
+  "x": 955,
+  "y": 1475
+ },
+ {
+  "id": 1793682741746,
+  "r": "estado",
+  "n": "seta cove",
+  "t": "otro",
+  "o": "north neighboord of micelium heights",
+  "x": 828,
+  "y": 1384
+ },
+ {
+  "id": 1793682765021,
+  "r": "estado",
+  "n": "seta post",
+  "t": "area",
+  "o": "",
+  "x": 700,
+  "y": 1388
+ },
+ {
+  "id": 1793682935907,
+  "r": "estado",
+  "n": "bernando cove",
+  "t": "area",
+  "o": "",
+  "x": 715,
+  "y": 1475
+ },
+ {
+  "id": 1793682944986,
+  "r": "estado",
+  "n": "mara island",
+  "t": "isla",
+  "o": "",
+  "x": 668,
+  "y": 1151
+ },
+ {
+  "id": 1793682949715,
+  "r": "estado",
+  "n": "matsu island",
+  "t": "isla",
+  "o": "",
+  "x": 590,
+  "y": 1129
+ },
+ {
+  "id": 1793683485546,
+  "r": "estado",
+  "n": "glaciar hills",
+  "t": "parque",
+  "o": "",
+  "x": 2891,
+  "y": 512
+ },
+ {
+  "id": 1793684377965,
+  "r": "estado",
+  "n": "arroyo island",
+  "t": "isla",
+  "o": "",
+  "x": 1426,
+  "y": 955
+ },
+ {
+  "id": 1793768921986,
+  "r": "estado",
+  "n": "oro island",
+  "t": "isla",
+  "o": "",
+  "x": 1896,
+  "y": 1100
+ },
+ {
+  "id": 1793768939755,
+  "r": "estado",
+  "n": "cayo norte island",
+  "t": "isla",
+  "o": "",
+  "x": 1847,
+  "y": 1063
+ },
+ {
+  "id": 1793768975874,
+  "r": "estado",
+  "n": "viridyan island",
+  "t": "isla",
+  "o": "",
+  "x": 1932,
+  "y": 1038
+ },
+ {
+  "id": 1793768996202,
+  "r": "estado",
+  "n": "dana hills",
+  "t": "area",
+  "o": "",
+  "x": 2061,
+  "y": 1099
+ },
+ {
+  "id": 1793769022838,
+  "r": "estado",
+  "n": "laguna lake",
+  "t": "area",
+  "o": "",
+  "x": 2120,
+  "y": 914
+ },
+ {
+  "id": 1793769199234,
+  "r": "estado",
+  "n": "salina mountains",
+  "t": "parque",
+  "o": "",
+  "x": 2385,
+  "y": 1070
+ },
+ {
+  "id": 1793769216360,
+  "r": "estado",
+  "n": "serpentine canyon",
+  "t": "parque",
+  "o": "",
+  "x": 2442,
+  "y": 941
+ },
+ {
+  "id": 1793769227688,
+  "r": "estado",
+  "n": "oro ridge",
+  "t": "area",
+  "o": "",
+  "x": 2273,
+  "y": 947
+ },
+ {
+  "id": 1793769648415,
+  "r": "estado",
+  "n": "madera island",
+  "t": "isla",
+  "o": "",
+  "x": 1618,
+  "y": 873
+ },
+ {
+  "id": 1793769665768,
+  "r": "estado",
+  "n": "juno island",
+  "t": "isla",
+  "o": "",
+  "x": 1536,
+  "y": 896
+ },
+ {
+  "id": 1794117981513,
+  "r": "estado",
+  "n": "seiko beach",
+  "t": "villa",
+  "o": "",
+  "x": 1033,
+  "y": 815
+ },
+ {
+  "id": 1794183429144,
+  "r": "estado",
+  "n": "pino hills",
+  "t": "villa",
+  "o": "",
+  "x": 513,
+  "y": 1666
+ },
+ {
+  "id": 1794740479362,
+  "r": "estado",
+  "n": "roseta port",
+  "t": "puerto",
+  "o": "",
+  "x": 759,
+  "y": 1252
+ },
+ {
+  "id": 1794740497090,
+  "r": "estado",
+  "n": "red residence",
+  "t": "otro",
+  "o": "",
+  "x": 655,
+  "y": 1351
+ },
+ {
+  "id": 1794740534762,
+  "r": "estado",
+  "n": "kana island",
+  "t": "isla",
+  "o": "",
+  "x": 1776,
+  "y": 1457
+ },
+ {
+  "id": 1794740550114,
+  "r": "estado",
+  "n": "east parkland",
+  "t": "villa",
+  "o": "",
+  "x": 1543,
+  "y": 1427
+ },
+ {
+  "id": 1794811004572,
+  "r": "estado",
+  "n": "helado hills",
+  "t": "area",
+  "o": "",
+  "x": 977,
+  "y": 648
+ },
+ {
+  "id": 1794811026392,
+  "r": "estado",
+  "n": "palo alto",
+  "t": "villa",
+  "o": "",
+  "x": 1051,
+  "y": 549
+ },
+ {
+  "id": 1794811042936,
+  "r": "estado",
+  "n": "palos beach",
+  "t": "area",
+  "o": "",
+  "x": 1241,
+  "y": 949
+ },
+ {
+  "id": 1794811110996,
+  "r": "estado",
+  "n": "merced bay",
+  "t": "pueblo",
+  "o": "",
+  "x": 769,
+  "y": 776
+ },
+ {
+  "id": 1794811127663,
+  "r": "estado",
+  "n": "carper hill",
+  "t": "area",
+  "o": "",
+  "x": 656,
+  "y": 862
+ },
+ {
+  "id": 1794866255944,
+  "r": "estado",
+  "n": "seta bay",
+  "t": "area",
+  "o": "",
+  "x": 789,
+  "y": 1526
+ },
+ {
+  "id": 1794866475782,
+  "r": "estado",
+  "n": "north santa inez",
+  "t": "otro",
+  "o": "west neighboor of SI",
+  "x": 2091,
+  "y": 2301
+ },
+ {
+  "id": 1794866489901,
+  "r": "estado",
+  "n": "bayside",
+  "t": "otro",
+  "o": "port of santa inez",
+  "x": 2116,
+  "y": 2313
+ },
+ {
+  "id": 1794866511396,
+  "r": "estado",
+  "n": "abedul beach",
+  "t": "otro",
+  "o": "Extension of cedar hills",
+  "x": 2079,
+  "y": 2365
+ },
+ {
+  "id": 1794866548876,
+  "r": "estado",
+  "n": "Northside hills",
+  "t": "villa",
+  "o": "",
+  "x": 2367,
+  "y": 2191
+ },
+ {
+  "id": 1794866556781,
+  "r": "estado",
+  "n": "Starside hills",
+  "t": "villa",
+  "o": "",
+  "x": 2377,
+  "y": 2232
+ },
+ {
+  "id": 1794866919108,
+  "r": "estado",
+  "n": "Oro River",
+  "t": "otro",
+  "o": "",
+  "x": 2128,
+  "y": 1335
+ },
+ {
+  "id": 1794866933499,
+  "r": "estado",
+  "n": "Rio Esmeralda",
+  "t": "otro",
+  "o": "",
+  "x": 2592,
+  "y": 1295
+ },
+ {
+  "id": 1794867001321,
+  "r": "estado",
+  "n": "Oakside cove",
+  "t": "otro",
+  "o": "",
+  "x": 2468,
+  "y": 1471
+ },
+ {
+  "id": 1794988022514,
+  "r": "estado",
+  "n": "Arcadia island",
+  "t": "isla",
+  "o": "located near acacia island",
+  "x": 1974,
+  "y": 1144
+ }
+]
